@@ -95,6 +95,8 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     Alex Kendall and Yarin Gal. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision? Advances in Neural Information Processing Systems (NIPS), 2017.<br>
     <b>(Spotlight Oral)</b>
     (<a href="https://arxiv.org/pdf/1703.04977.pdf" style="color:gray">.pdf</a>)
+    (<a href="/media/presentations/2017_nips_poster.pdf" style="color:gray">Poster</a>)
+    (<a href="/media/presentations/Yarin_Gal_NIPS.pdf" style="color:gray">Slides</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_bayes_unc');">bibtex</a>)
 </small>
 <div id="bibtex_bayes_unc" style="display:none;">
