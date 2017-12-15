@@ -58,6 +58,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 > <small>
     Yarin Gal, Jiri Hron and Alex Kendall. Concrete Dropout. Advances in Neural Information Processing Systems (NIPS), 2017.<br>
     (<a href="https://arxiv.org/abs/1705.07832" style="color:gray">.pdf</a>)
+    (<a href="/media/presentations/nips17_concrete_dropout_poster.pdf" style="color:gray">Poster</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_cdropout');">bibtex</a>)
 </small>
 <div id="bibtex_cdropout" style="display:none;">
