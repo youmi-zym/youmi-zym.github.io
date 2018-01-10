@@ -53,7 +53,7 @@ feature_row:
 <center><a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('old_news');"><small><i>-- older news --</i></small></a></center>
 <div id="old_news" style="display:none;">
 <ul>
-<li><span style="color:red">December 2016 -</span> [SegNet](https://arxiv.org/pdf/1511.00561v3.pdf) has just been published in IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
+<li><span style="color:red">December 2016 -</span> <a href="https://arxiv.org/pdf/1511.00561v3.pdf>SegNet</a> has just been published in IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
 <li><span style="color:red">May 2016 -</span> We are presenting our <a href="http://arxiv.org/abs/1509.05909">paper</a> on probabilistic localisation with deep learning at ICRA in Stockholm, Sweden</li>
 <li><span style="color:red">December 2015 -</span> We are presenting our <a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">paper</a> on localisation with deep learning at ICCV in Santiago, Chile</li>
 </ul>
