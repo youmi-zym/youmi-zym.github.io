@@ -16,14 +16,14 @@ feature_row:
   - image_path: /assets/images/uncertainty.jpg
     alt: "Semantic Segmentation"
     title: "Blog"
-    excerpt: "A discussion about what's on my mind from research"
+    excerpt: "A discussion about research I am interested in."
     url: "blog"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/poster.jpg
     alt: "Uncertainty with Bayesian Deep Learning"
     title: "Research"
-    excerpt: "My research into geometry, uncertainty and deep learning for computer vision."
+    excerpt: "My research into deep learning algorithms for computer vision and robotics."
     url: "research"
     btn_label: "Read More"
     btn_class: "btn--inverse"
@@ -40,6 +40,7 @@ feature_row:
 {% include feature_row %}
 
 ## Latest News
+* <span style="color:red">January 2018 -</span> We are organising the first workshop on [Deep Learning for Visual SLAM](http://www.visualslam.ai) and a tutorial on Uncertainty in Deep Learning at [CVPR 2018](http://cvpr2018.thecvf.com/)
 * <span style="color:red">September 2017 -</span> Two papers accepted to [NIPS 2017](https://nips.cc/) on [Bayesian deep learning](https://arxiv.org/pdf/1703.04977.pdf) (spotlight oral) and a new technique called [Concrete Dropout](https://arxiv.org/pdf/1705.07832.pdf)!
 * <span style="color:red">June 2017 -</span> At [ICCV 2017](http://iccv2017.thecvf.com/) I will be presenting a [Spotlight Oral paper](https://arxiv.org/pdf/1703.04309.pdf) and also giving an invited talk at the [Geometry Meets Deep Learning Workshop](https://sites.google.com/site/deepgeometry2017/home)!
 * <span style="color:red">June 2017 -</span> We will be presenting a [new paper on safety in autonomous driving](https://www.ijcai.org/proceedings/2017/0661.pdf) at IJCAI 2017, in Melbourne, Australia.
@@ -47,12 +48,12 @@ feature_row:
 * <span style="color:red">February 2017 -</span> Torsten, Giorgos, Akihiko and I will be running the [tutorial on Large Scale Localisation](https://sites.google.com/view/lsvpr2017/home) at CVPR this year
 * <span style="color:red">January 2017 -</span> Our algorithm [GC-Net](https://arxiv.org/pdf/1703.04309.pdf) is ranked 1st on the KITTI [2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) Stereo Leaderboards!
 * <span style="color:red">January 2017 -</span> I have been awarded a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/)
-* <span style="color:red">December 2016 -</span> [SegNet](https://arxiv.org/pdf/1511.00561v3.pdf) has just been published in IEEE Transactions on Pattern Analysis and Machine Intelligence
 
 
 <center><a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('old_news');"><small><i>-- older news --</i></small></a></center>
 <div id="old_news" style="display:none;">
 <ul>
+<li><span style="color:red">December 2016 -</span> [SegNet](https://arxiv.org/pdf/1511.00561v3.pdf) has just been published in IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
 <li><span style="color:red">May 2016 -</span> We are presenting our <a href="http://arxiv.org/abs/1509.05909">paper</a> on probabilistic localisation with deep learning at ICRA in Stockholm, Sweden</li>
 <li><span style="color:red">December 2015 -</span> We are presenting our <a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">paper</a> on localisation with deep learning at ICCV in Santiago, Chile</li>
 </ul>
