@@ -14,8 +14,8 @@ header:
 
 feature_row_mllondon:
   - image_path: /assets/images/presentations/london_ml_meetup.jpg
-    alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
-    title: 'Is recognition enough to learn how to see?'
+    alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
+    title: 'Is recognition enough to learn how to see?'
     excerpt: '<ul><li>London Machine Learning Meetup, January 2018</li></ul>'
     url: "/media/presentations/london_ml_meetup.pdf"
     btn_label: "Presentation (.pdf)"
