@@ -13,7 +13,7 @@ header:
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 
 feature_row_mllondon:
-  - image_path: /assets/images/presentations/localisation.png
+  - image_path: /assets/images/presentations/london_ml_meetup.png
     alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
     title: 'Is recognition enough to learn how to see?'
     excerpt: '<ul><li>London Machine Learning Meetup, January 2018</li></ul>'
