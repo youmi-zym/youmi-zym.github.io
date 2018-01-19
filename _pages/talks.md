@@ -13,7 +13,7 @@ header:
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 
 feature_row_mllondon:
-  - image_path: /assets/images/presentations/london_ml_meetup.jpg
+  - image_path: /assets/images/presentations/localisation.png
     alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
     title: 'Is recognition enough to learn how to see?'
     excerpt: '<ul><li>London Machine Learning Meetup, January 2018</li></ul>'
@@ -71,6 +71,7 @@ feature_row_perse:
     
 ---
 
+{% include feature_row id="feature_row_mllondon" type="left" %}
 {% include feature_row id="feature_row_lsvpr" type="left" %}
 {% include feature_row id="feature_row_geo_unc" type="left" %}
 {% include feature_row id="feature_row_cucl" type="left" %}
