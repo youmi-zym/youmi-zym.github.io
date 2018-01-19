@@ -71,7 +71,6 @@ feature_row_perse:
     
 ---
 
-{% include feature_row id="feature_row_mllondon" type="left" %}
 {% include feature_row id="feature_row_lsvpr" type="left" %}
 {% include feature_row id="feature_row_geo_unc" type="left" %}
 {% include feature_row id="feature_row_cucl" type="left" %}
