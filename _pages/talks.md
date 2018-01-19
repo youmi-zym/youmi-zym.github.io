@@ -12,6 +12,16 @@ header:
   overlay_image: /assets/images/trinity.jpg
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 
+feature_row_mllondon:
+  - image_path: /assets/images/presentations/london_ml_meetup.jpg
+    alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
+    title: 'Is recognition enough to learn how to see?'
+    excerpt: '<ul><li>London Machine Learning Meetup, January 2018</li></ul>'
+    btn_class: "btn--inverse"
+    btn_label: "Presentation (.pdf)"
+    url: "/media/presentations/london_ml_meetup.pdf"
+    btn_class2: "btn--inverse"
+    
 feature_row_lsvpr:
   - image_path: /assets/images/presentations/localisation.png
     alt: "Alex Kendall: Large-Scale Visual Place Recognition and Image-Based Localization, CVPR Tutorial"
@@ -62,6 +72,7 @@ feature_row_perse:
     
 ---
 
+{% include feature_row id="feature_row_mllondon" type="left" %}
 {% include feature_row id="feature_row_lsvpr" type="left" %}
 {% include feature_row id="feature_row_geo_unc" type="left" %}
 {% include feature_row id="feature_row_cucl" type="left" %}
