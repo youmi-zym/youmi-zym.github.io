@@ -20,7 +20,6 @@ feature_row_mllondon:
     btn_class: "btn--inverse"
     btn_label: "Presentation (.pdf)"
     url: "/media/presentations/london_ml_meetup.pdf"
-    btn_class2: "btn--inverse"
     
 feature_row_lsvpr:
   - image_path: /assets/images/presentations/localisation.png
