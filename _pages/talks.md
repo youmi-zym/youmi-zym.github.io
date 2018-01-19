@@ -17,9 +17,9 @@ feature_row_mllondon:
     alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
     title: 'Is recognition enough to learn how to see?'
     excerpt: '<ul><li>London Machine Learning Meetup, January 2018</li></ul>'
-    btn_class: "btn--inverse"
-    btn_label: "Presentation (.pdf)"
     url: "/media/presentations/london_ml_meetup.pdf"
+    btn_label: "Presentation (.pdf)"
+    btn_class: "btn--inverse"
     
 feature_row_lsvpr:
   - image_path: /assets/images/presentations/localisation.png
