@@ -18,7 +18,7 @@ tags:
   - geometry
 ---
 
-**2017 was an exciting year as, arguably, we saw deep learning overtake classical computer vision for estimating geometry.**
+**2017 was an exciting year as we saw deep learning become the dominant paradigm for estimating geometry in computer vision.**
 
 Learning geometry has emerged as one of the most influential topics in computer vision over the last few years. 
 
@@ -34,9 +34,13 @@ In 2017, [Godard et al.](https://arxiv.org/abs/1609.03677) show how to formulate
  - **Optical Flow**: this requires training reprojection disparities over 2D and has been demonstrated by [Yu et al. 2016](https://arxiv.org/abs/1608.05842), [Ren et al. 2017](http://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14388/13940) and [Meister et al. 2018](https://arxiv.org/abs/1711.07837).
  - **Stereo Depth**: in my PhD thesis I show how to extend our stereo architecture, [GC-Net](https://arxiv.org/abs/1703.04309), to learn stereo depth with epipolar geometry & unsupervised learning.
  - **Localisation**: I presented a paper at CVPR 2017 showing how to train relocalisation systems by learning to project 3D geometry from structure from motion models [Kendall & Cipolla 2017](https://arxiv.org/abs/1704.00390).
- - **Ego-motion**: learning depth and ego motion with reprojection loss now out performs traditional methods like ORB-SLAM [Zhou et al. 2017](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/).
+ - **Ego-motion**: learning depth and ego motion with reprojection loss now out performs traditional methods like ORB-SLAM over short sequences under constrained settings ([Zhou et al. 2017](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)) and ([Li et al. 2017](https://arxiv.org/pdf/1709.06841.pdf)).
  - **Multi-View Stereo**: projection losses can also be used in a supervised setting to learn structure from motion, for example [DeMoN](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ummenhofer_DeMoN_Depth_and_CVPR_2017_paper.pdf) and [SfM-Net](https://arxiv.org/abs/1704.07804).
  - **3D Shape Estimation**: projection geometry also aids learning 3D shape from images in [this work from Jitendra Malik's group](https://arxiv.org/pdf/1704.06254.pdf).
+
+Deep learning excels at these applications for a few reasons.
+Firstly, it is able to learn higher order features which reason over shapes and objects with larger context than point-based classical methods.
+Secondly, it is very efficient for inference to simply run a forward pass of a convolutional neural network which approximates an exact geometric function.
 
 In this blog post I'd like to highlight the importance of epipolar geometry and how we can use it to learn representations of geometry with deep learning.
 
