@@ -24,7 +24,7 @@ Learning geometry has emerged as one of the most influential topics in computer 
 
 > "Geometry is ... concerned with questions of shape, size, relative position of figures and the properties of space” ([wikipedia](https://en.wikipedia.org/wiki/Geometry)).
 
-We've first seen end-to-end deep learning models for these tasks using supervised learning, for example in depth estimation ([Eigen et al. 2014](https://cs.nyu.edu/~deigen/depth/)), relocalisation ([PoseNet 2015](http://mi.eng.cam.ac.uk/projects/relocalisation/)), stereo vision ([GC-Net](https://arxiv.org/pdf/1703.04309.pdf)) and visual odometry ([DeepVO 2017](http://ieeexplore.ieee.org/abstract/document/7989236/?reload=true)) are examples.
+We've first seen end-to-end deep learning models for these tasks using supervised learning, for example in depth estimation ([Eigen et al. 2014](https://cs.nyu.edu/~deigen/depth/)), relocalisation ([PoseNet 2015](http://mi.eng.cam.ac.uk/projects/relocalisation/)), stereo vision ([GC-Net 2017](https://arxiv.org/pdf/1703.04309.pdf)) and visual odometry ([DeepVO 2017](http://ieeexplore.ieee.org/abstract/document/7989236/?reload=true)) are examples.
 Deep learning excels at these applications for a few reasons.
 Firstly, it is able to learn higher order features which reason over shapes and objects with larger context than point-based classical methods.
 Secondly, it is very efficient for inference to simply run a forward pass of a convolutional neural network which approximates an exact geometric function.
