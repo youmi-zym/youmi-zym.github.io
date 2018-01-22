@@ -24,8 +24,14 @@ Learning geometry has emerged as one of the most influential topics in computer 
 
 > "Geometry is ... concerned with questions of shape, size, relative position of figures and the properties of space” ([wikipedia](https://en.wikipedia.org/wiki/Geometry)).
 
-In particular, I’ve noticed epipolar geometry and reprojection losses making a profound impact on deep learning in computer vision. 
-They have contributed to a number of significant breakthroughs which now allow deep learning to outperform many traditional approaches to estimating geometry. 
+We've first seen end-to-end deep learning models for these tasks using supervised learning, for example in depth estimation ([Eigen et al. 2014](https://cs.nyu.edu/~deigen/depth/)), relocalisation ((PoseNet 2015)[http://mi.eng.cam.ac.uk/projects/relocalisation/]), stereo vision ((GC-Net)[https://arxiv.org/pdf/1703.04309.pdf]) and visual odometry ((DeepVO 2017)[http://ieeexplore.ieee.org/abstract/document/7989236/?reload=true]) are examples.
+Deep learning excels at these applications for a few reasons.
+Firstly, it is able to learn higher order features which reason over shapes and objects with larger context than point-based classical methods.
+Secondly, it is very efficient for inference to simply run a forward pass of a convolutional neural network which approximates an exact geometric function.
+
+Over the last year, I’ve noticed epipolar geometry and reprojection losses improving these models, allowing them to learn with unsupervised learning.
+This means they can train without expensive labelled data by just observing the world.
+Reprojection losses have contributed to a number of significant breakthroughs which now allow deep learning to outperform many traditional approaches to estimating geometry. 
 Specifically, photometric reprojection loss has emerged as the dominant technique for learning geometry with unsupervised (or self-supervised) learning. 
 We’ve seen this across a number of computer vision problems:
 
@@ -37,10 +43,6 @@ In 2017, [Godard et al.](https://arxiv.org/abs/1609.03677) show how to formulate
  - **Ego-motion**: learning depth and ego motion with reprojection loss now out performs traditional methods like ORB-SLAM over short sequences under constrained settings ([Zhou et al. 2017](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)) and ([Li et al. 2017](https://arxiv.org/pdf/1709.06841.pdf)).
  - **Multi-View Stereo**: projection losses can also be used in a supervised setting to learn structure from motion, for example [DeMoN](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ummenhofer_DeMoN_Depth_and_CVPR_2017_paper.pdf) and [SfM-Net](https://arxiv.org/abs/1704.07804).
  - **3D Shape Estimation**: projection geometry also aids learning 3D shape from images in [this work from Jitendra Malik's group](https://arxiv.org/pdf/1704.06254.pdf).
-
-Deep learning excels at these applications for a few reasons.
-Firstly, it is able to learn higher order features which reason over shapes and objects with larger context than point-based classical methods.
-Secondly, it is very efficient for inference to simply run a forward pass of a convolutional neural network which approximates an exact geometric function.
 
 In this blog post I'd like to highlight the importance of epipolar geometry and how we can use it to learn representations of geometry with deep learning.
 
