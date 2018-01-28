@@ -97,7 +97,7 @@ The list of papers at the start of this post further extend this idea to optical
 
 I think there are some short-comings to reprojection losses.
 
-Firstly, reprojection loss makes a **photometric consistency assumption**. 
+Firstly, photometric reprojection loss makes a **photometric consistency assumption**. 
 This means it assumes that the same surface has the same RGB pixel value between views. 
 This assumption is usually valid for stereo vision, because both images are taken at the same time. 
 However, this is not always the case for learning optical flow or multi-view stereo, because appearance and lighting changes over time. 
