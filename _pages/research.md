@@ -21,8 +21,7 @@ gallery_uncertainty:
 ---
 
 I am excited about research which advances the perception and control of mobile robotics.
-In particular, I am currently working on leveraging geometry for unsupervised learning, reasoning under uncertainty with Bayesian deep learning and developing end-to-end systems which can reason from perception to control. 
-My research has been used to power smart-city infrastructure with [Vivacity](http://www.vivacitylabs.com/), control self-driving cars with [Toyota Research Institute](http://www.tri.global/) and enable next-generation drone flight with [Skydio](https://www.skydio.com/).
+In particular, I am currently working on leveraging geometry for unsupervised learning, reasoning under uncertainty with Bayesian deep learning, learning representations for memory and developing end-to-end systems which can reason from perception to control.
 
 # Scene Understanding
 

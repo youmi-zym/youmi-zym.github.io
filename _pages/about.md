@@ -27,7 +27,7 @@ He is a member of the [Machine Intelligence Laboratory](https://mi.eng.cam.ac.uk
 Alex's research investigates applications of deep learning for robot perception and control.
 He has developed computer vision algorithms to enable autonomous vehicles to understand complex and dynamic scenes.
 In particular, he is excited about leveraging geometry for unsupervised learning, reasoning under uncertainty with Bayesian deep learning and developing end-to-end systems which can reason from perception to control.
-His technology has been used to power smart-city infrastructure with [Vivacity](http://www.vivacitylabs.com/), control self-driving cars with [Toyota Research Institute](http://www.tri.global/) and enable next-generation drone flight with [Skydio](https://www.skydio.com/).
+His technology has been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight.
 
 ## Contact details
 
