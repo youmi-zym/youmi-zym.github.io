@@ -19,7 +19,7 @@ header:
 
 ## Brief biography
 
-Alex Kendall Co-Founded and is CTO at [Wayve](https://wayve.ai/) and is a Research Fellow at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/) in the United Kingdom.
+Alex Kendall is a Research Fellow at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/) in the United Kingdom.
 He graduated with a Bachelor of Engineering with First Class Honours in 2013 from the [University of Auckland](https://www.auckland.ac.nz/), New Zealand.
 In 2014, he was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/) to study towards a Ph.D. at the University of Cambridge.
 He is a member of the [Machine Intelligence Laboratory](https://mi.eng.cam.ac.uk/Main/CVR) and is supervised by [Prof. Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/).
