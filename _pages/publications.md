@@ -213,7 +213,7 @@ Alex Kendall, Matthew Grimes and Roberto Cipolla. PoseNet: A Convolutional Netwo
 
 > <small>
 Kendall, Alex G., Nishaad N. Salvapantula, and Karl A. Stol. On-board object tracking control of a quadcopter with monocular vision. Unmanned Aircraft Systems (ICUAS), 2014 International Conference on. IEEE, 2014.<br>
-(<a href="media/papers/ICUAS_Kendall_2014.pdf" style="color:gray">.pdf</a>)
+(<a href="/media/papers/ICUAS_Kendall_2014.pdf" style="color:gray">.pdf</a>)
 (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_icuas');">bibtex</a>)
 </small>
 <div id="bibtex_icuas" style="display:none;">
