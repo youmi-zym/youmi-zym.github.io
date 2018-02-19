@@ -19,6 +19,25 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ---
 
+## 2018
+
+> <small>
+    Alex Kendall, Yarin Gal and Roberto Cipolla. Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics.  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.<br>
+    (<a href="https://arxiv.org/pdf/1705.07115.pdf" style="color:gray">.pdf</a>)
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_multi');">bibtex</a>)
+</small>
+<div id="bibtex_multi" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@inproceedings{kendall2017multi,
+  title={Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics},
+  author={Kendall, Alex and Gal, Yarin and Cipolla, Roberto},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  year={2018}
+}
+</code></pre></div></small>
+</div>
+
+
 ## 2017
 
 > <small>
@@ -35,22 +54,6 @@ For a complete list of publications, please refer to <a href="https://scholar.go
   author={McAllister, Rowan and Gal, Yarin and Kendall, Alex and van der Wilk, Mark and Shah, Amar and Cipolla, Roberto and Weller, Adrian},
   booktitle={International Joint Conference on Artificial Intelligence ({IJCAI})},
   year={2017}
-}
-</code></pre></div></small>
-</div>
-
-> <small>
-    Alex Kendall, Yarin Gal and Roberto Cipolla. Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics.  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.<br>
-    (<a href="https://arxiv.org/pdf/1705.07115.pdf" style="color:gray">.pdf</a>)
-    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_multi');">bibtex</a>)
-</small>
-<div id="bibtex_multi" style="display:none;">
-<small><div class="highlighter-rouge"><pre class="highlight">
-<code>@inproceedings{kendall2017multi,
-  title={Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics},
-  author={Kendall, Alex and Gal, Yarin and Cipolla, Roberto},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition ({CVPR})},
-  year={2018}
 }
 </code></pre></div></small>
 </div>
