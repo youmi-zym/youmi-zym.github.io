@@ -21,7 +21,7 @@ gallery_uncertainty:
 ---
 
 I am excited about research which advances the perception and control of mobile robotics.
-In particular, I am currently working on leveraging geometry for unsupervised learning, reasoning under uncertainty with Bayesian deep learning, learning representations for memory and developing end-to-end systems which can reason from perception to control.
+In particular, I am currently working on improving the robustness and accuracy of computer vision algorithms, leveraging geometry for unsupervised learning and developing end-to-end systems which can reason from perception to control.
 
 # Scene Understanding
 
