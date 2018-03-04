@@ -19,14 +19,13 @@ header:
 
 ## Brief biography
 
-Alex Kendall is a Research Fellow at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/) in the United Kingdom.
+Alex Kendall co-founded and is CTO at Wayve Technologies, in addition to holding a Research Fellowship at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/) in the United Kingdom.
 He graduated with a Bachelor of Engineering with First Class Honours in 2013 from the [University of Auckland](https://www.auckland.ac.nz/), New Zealand.
-In 2014, he was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/) to study towards a Ph.D. at the University of Cambridge.
-He is a member of the [Machine Intelligence Laboratory](https://mi.eng.cam.ac.uk/Main/CVR) and is supervised by [Prof. Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/).
+In 2014, he was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/) to embark on a Ph.D. at the University of Cambridge, which he completed under the supervision of [Prof. Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/).
 
 Alex's research investigates applications of deep learning for robot perception and control.
-He has developed computer vision algorithms to enable autonomous vehicles to understand complex and dynamic scenes.
-In particular, he is excited about leveraging geometry for unsupervised learning, reasoning under uncertainty with Bayesian deep learning and developing end-to-end systems which can reason from perception to control.
+He has developed computer vision algorithms which are able to understand complex and dynamic scenes.
+In particular, he is excited about improving the robustness and accuracy of computer vision algorithms, leveraging geometry for unsupervised learning and developing end-to-end systems which can reason from perception to control.
 His technology has been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight.
 
 ## Contact details
