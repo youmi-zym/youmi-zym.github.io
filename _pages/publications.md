@@ -23,6 +23,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 > <small>
     Alex Kendall, Yarin Gal and Roberto Cipolla. Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics.  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.<br>
+    <b>(Spotlight Oral)</b>
     (<a href="https://arxiv.org/pdf/1705.07115.pdf" style="color:gray">.pdf</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_multi');">bibtex</a>)
 </small>
