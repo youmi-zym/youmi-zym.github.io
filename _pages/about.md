@@ -23,10 +23,10 @@ Alex Kendall co-founded and is CTO at Wayve Technologies, in addition to holding
 He graduated with a Bachelor of Engineering with First Class Honours in 2013 from the [University of Auckland](https://www.auckland.ac.nz/), New Zealand.
 In 2014, he was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/) to embark on a Ph.D. at the University of Cambridge, which he completed under the supervision of [Prof. Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/).
 
-Alex's research investigates applications of deep learning for robot perception and control.
-He has developed computer vision algorithms which are able to understand complex and dynamic scenes.
+Alex's research investigates deep learning approaches for computer vision and robotics.
 In particular, he is excited about improving the robustness and accuracy of computer vision algorithms, leveraging geometry for unsupervised learning and developing end-to-end systems which can reason from perception to control.
 His technology has been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight.
+He has co-authored many publications at leading computer vision, robotics and machine learning conferences. He regularly serves as a reviewer and has organised multiple workshops and tutorials at top-tier conferences.
 
 ## Contact details
 
