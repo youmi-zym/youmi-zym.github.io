@@ -17,16 +17,14 @@ header:
     <img src="/assets/images/alex.jpg" class="author__avatar" alt="Alex Kendall" itemprop="image">
 </div>
 
+
 ## Brief biography
 
-Alex Kendall co-founded and is CTO at Wayve Technologies, in addition to holding a Research Fellowship at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/) in the United Kingdom.
-He graduated with a Bachelor of Engineering with First Class Honours in 2013 from the [University of Auckland](https://www.auckland.ac.nz/), New Zealand.
-In 2014, he was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/) to embark on a Ph.D. at the University of Cambridge, which he completed under the supervision of [Prof. Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/).
-
-Alex's research investigates deep learning approaches for computer vision and robotics.
-In particular, he is excited about improving the robustness and accuracy of computer vision algorithms, leveraging geometry for unsupervised learning and developing end-to-end systems which can reason from perception to control.
-His technology has been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight.
-He has co-authored many publications at leading computer vision, robotics and machine learning conferences. He regularly serves as a reviewer and has organised multiple workshops and tutorials at top-tier conferences.
+Alex Kendall co-founded and is CTO at [Wayve](https://wayve.ai/), in addition to holding a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/).
+He grew up in New Zealand, studied mechatronics at [Auckland University](https://www.auckland.ac.nz/), was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/), helped design the algorithms which fly the [Skydio drone](https://www.skydio.com/), before completing a PhD in computer vision and robotics at [Cambridge University](https://www.cam.ac.uk/). 
+He has co-authored many publications at leading computer vision, robotics and machine learning conferences.
+His algorithms have been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight. 
+He is excited about building robots which can learn to do more intelligent things with less data.
 
 ## Contact details
 
