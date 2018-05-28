@@ -21,7 +21,7 @@ header:
 ## Brief biography
 
 Alex Kendall co-founded and is CTO at [Wayve](https://wayve.ai/), in addition to holding a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/).
-He grew up in New Zealand, studied mechatronics at [Auckland University](https://www.auckland.ac.nz/), was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/), helped design the algorithms which fly the [Skydio drone](https://www.skydio.com/), before completing a PhD in computer vision and robotics at [Cambridge University](https://www.cam.ac.uk/). 
+He grew up in New Zealand, studied mechatronics engineering at [Auckland University](https://www.auckland.ac.nz/), was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/), helped design the algorithms which fly the [Skydio drone](https://www.skydio.com/), before completing a PhD in computer vision and robotics at [Cambridge University](https://www.cam.ac.uk/). 
 He has co-authored many publications at leading computer vision, robotics and machine learning conferences.
 His algorithms have been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight. 
 He is excited about building robots which can learn to do more intelligent things with less data.
