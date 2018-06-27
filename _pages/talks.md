@@ -12,6 +12,15 @@ header:
   overlay_image: /assets/images/trinity.jpg
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 
+feature_row_trinity:
+  - image_path: /assets/images/presentations/alex_google.jpg
+    alt: "Alex Kendall: Trinity College Fellows' Research Talk"
+    title: 'Teaching Robots to See with Computer Vision?'
+    excerpt: "<ul><li>Trinity College Fellows' Research Talk, May 2018</li></ul>"
+    url: "https://www.youtube.com/watch?v=NdlKvVe7Vy4"
+    btn_label: "Video (youtube)"
+    btn_class: "btn--inverse"
+
 feature_row_mllondon:
   - image_path: /assets/images/presentations/london_ml_meetup.png
     alt: "Alex Kendall: Is recognition enough to learn how to see? London Machine Learning Meetup"
@@ -71,6 +80,7 @@ feature_row_perse:
     
 ---
 
+{% include feature_row id="feature_row_trinity" type="left" %}
 {% include feature_row id="feature_row_mllondon" type="left" %}
 {% include feature_row id="feature_row_lsvpr" type="left" %}
 {% include feature_row id="feature_row_geo_unc" type="left" %}
