@@ -19,7 +19,40 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ---
 
+## PhD Thesis
+
+> <small>
+    Alex Kendall. Geometry and Uncertainty in Deep Learning for Computer Vision. PhD Thesis, University of Cambridge, 2018.<br>
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_phd');">bibtex</a>)
+</small>
+<div id="bibtex_phd" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@phdthesis{kendall2018phd,
+  title={Geometry and Uncertainty in Deep Learning for Computer Vision},
+  author={Kendall, Alex},
+  year={2018},
+  school={University of Cambridge}
+}
+</code></pre></div></small>
+</div>
+
 ## 2018
+
+> <small>
+    Alex Kendall, Jeffrey Hawke, David Janz, Przemyslaw Mazur, Daniele Reda, John-Mark Allen, Vinh-Dieu Lam, Alex Bewley, Amar Shah. Learning to Drive in a Day.  arXiv preprint arXiv:1807.00412, 2018.<br>
+    (<a href="https://arxiv.org/pdf/1807.00412.pdf" style="color:gray">.pdf</a>)
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_l2diad');">bibtex</a>)
+</small>
+<div id="bibtex_l2diad" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{kendall2018learning,
+  title={Learning to Drive in a Day},
+  author={Kendall, Alex and Hawke, Jeffrey and Janz, David and Mazur, Przemyslaw and Reda, Daniele and Allen, John-Mark and Lam, Vinh-Dieu and Bewley, Alex and Shah, Amar},
+  journal={arXiv preprint arXiv:1807.00412},
+  year={2018}
+}
+</code></pre></div></small>
+</div>
 
 > <small>
     Alex Kendall, Yarin Gal and Roberto Cipolla. Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics.  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.<br>
