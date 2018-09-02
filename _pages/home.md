@@ -40,13 +40,14 @@ feature_row:
 {% include feature_row %}
 
 ## Latest News
+* May 2018: [Wayve](https://wayve.ai/) comes out of stealth and announces the development of end-to-end machine learning for self-driving
 * January 2018: New paper on multitask deep learning accepted as a spotlight presentation and I am co-organising the first workshop on [Deep Learning for Visual SLAM](http://www.visualslam.ai) at [CVPR 2018](http://cvpr2018.thecvf.com/)
-* September 2017: Two papers accepted to [NIPS 2017](https://nips.cc/) on [Bayesian deep learning](https://arxiv.org/pdf/1703.04977.pdf) (spotlight oral) and a new technique called [Concrete Dropout](https://arxiv.org/pdf/1705.07832.pdf)!
-* June 2017: At [ICCV 2017](http://iccv2017.thecvf.com/) I will be presenting a [Spotlight Oral paper](https://arxiv.org/pdf/1703.04309.pdf) and also giving an invited talk at the [Geometry Meets Deep Learning Workshop](https://sites.google.com/site/deepgeometry2017/home)!
-* June 2017: We will be presenting a [new paper on safety in autonomous driving](https://www.ijcai.org/proceedings/2017/0661.pdf) at IJCAI 2017, in Melbourne, Australia.
-* March 2017: [New paper](https://arxiv.org/abs/1704.00390) on relocalisation with deep learning using projection geometry at CVPR 2017, in Hawaii, USA!
+* September 2017: Two papers accepted to [NIPS 2017](https://nips.cc/) on [Bayesian deep learning](https://arxiv.org/pdf/1703.04977.pdf) (spotlight oral) and a new technique called [Concrete Dropout](https://arxiv.org/pdf/1705.07832.pdf)
+* June 2017: At [ICCV 2017](http://iccv2017.thecvf.com/) I will be presenting a [Spotlight Oral paper](https://arxiv.org/pdf/1703.04309.pdf) and also giving an invited talk at the [Geometry Meets Deep Learning Workshop](https://sites.google.com/site/deepgeometry2017/home)
+* June 2017: We will be presenting a [new paper on safety in autonomous driving](https://www.ijcai.org/proceedings/2017/0661.pdf) at IJCAI 2017, in Melbourne, Australia
+* March 2017: [New paper](https://arxiv.org/abs/1704.00390) on relocalisation with deep learning using projection geometry at CVPR 2017, in Hawaii, USA
 * February 2017: Torsten, Giorgos, Akihiko and I will be running the [tutorial on Large Scale Localisation](https://sites.google.com/view/lsvpr2017/home) at CVPR this year
-* January 2017: Our algorithm [GC-Net](https://arxiv.org/pdf/1703.04309.pdf) is ranked 1st on the KITTI [2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) Stereo Leaderboards!
+* January 2017: Our algorithm [GC-Net](https://arxiv.org/pdf/1703.04309.pdf) is ranked 1st on the KITTI [2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) Stereo Leaderboards
 * January 2017: I have been awarded a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/)
 
 

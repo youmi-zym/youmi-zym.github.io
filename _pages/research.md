@@ -10,7 +10,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/trinity.jpg
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
-excerpt: "Geometry and Uncertainty in Deep Learning for Computer Vision<br><br><br>"
 gallery_uncertainty:
   - image_path: /assets/images/research/input.png
     alt: "Input Image"
@@ -21,13 +20,23 @@ gallery_uncertainty:
 ---
 
 I am excited about research which advances the perception and control of mobile robotics.
-In particular, I am currently working on improving the robustness and accuracy of computer vision algorithms, leveraging geometry for unsupervised learning and developing end-to-end systems which can reason from perception to control.
+In particular, I am currently working on improving the robustness and accuracy of computer vision algorithms, leveraging geometry for self-supervised learning and developing end-to-end systems which can reason from perception to control.
+
+# Reasoning from Perception to Action
+
+The computer vision systems which I develop are primarily motivated to extract a representation which can be used to make a decision or action.
+I'm interested in learning representations to understand scenes and control the behavior of real world robots.
+For example, we designed a reinforcement learning agent which can learn to [drive a car with deep reinforcement learning](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning).
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/l2diad.gif){: .align-center}
+
+---
 
 # Scene Understanding
 
-Scene understanding is a fundamental task in computer vision which requires understanding the scene's geometry and semantic structure.
+Scene understanding is a fundamental task in computer vision which requires understanding information such as the scene's semantics, geometry and motion.
 Initially, I worked on a semantic segmentation algorithm called [SegNet](http://mi.eng.cam.ac.uk/projects/segnet/).
-More recently, I have been interested in learning depth, instance and semantic segmentation from a [unified deep learning architecture](https://arxiv.org/pdf/1705.07115.pdf).
+More recently, I have been interested in learning a representation from a [multitask deep learning architecture](https://arxiv.org/pdf/1705.07115.pdf).
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/multitask.jpg){: .align-center}
 
@@ -38,7 +47,7 @@ More recently, I have been interested in learning depth, instance and semantic s
 Deep learning is great for achieving state-of-the-art results, however these models cannot understand what they don't know.
 Bayesian deep learning (BDL) is a very exciting framework for understanding our model's uncertainty.
 [This paper](https://arxiv.org/pdf/1703.04977.pdf) is an introduction to Bayesian deep learning for computer vision. 
-I have also found BDL useful for [localisation](http://arxiv.org/abs/1509.05909) and [scene understanding](http://arxiv.org/abs/1511.02680).
+I have also found BDL useful for [localisation](http://arxiv.org/abs/1509.05909), [scene understanding](http://arxiv.org/abs/1511.02680) and [autonomous driving](https://www.ijcai.org/proceedings/2017/0661.pdf).
 
 {% include gallery id="gallery_uncertainty" caption="Bayesian deep learning for semantic segmentation. From left to right: input image, semantic segmentation and model uncertainty." %}
 
