@@ -16,12 +16,19 @@ tags:
   - computer vision
   - deep learning
   - geometry
+gallery_uncertainty:
+  - image_path: /assets/images/research/input.png
+    alt: "Input Image"
+  - image_path: /assets/images/research/segmentation.png
+    alt: "Semantic Segmentation"
+  - image_path: /assets/images/research/uncertainty.jpg
+    alt: "Uncertainty"
 ---
 
 
 Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Prof. Joan Lasenby and Prof. Andrew Zisserman in February 2018.
-This thesis represents the culmination of three years of research at the University of Cambridge, under the supervision of Prof Roberto Cipolla. 
-The document has 206 pages, contains 62 figures, 24 tables and 318 citations. You can download [the .pdf here](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
+This thesis explains my research at the University of Cambridge, under the supervision of Prof Roberto Cipolla with 206 pages, 62 figures, 24 tables and 318 citations.
+You can download [the complete .pdf here](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
 
 {% capture fig_thesis %}
 ![PhD Thesis]({{ "/assets/images/research/thesis.jpg" | absolute_url }})
@@ -36,9 +43,9 @@ This blog post introduces the work and tells the story behind this research.
 My thesis presents contributions to the field of computer vision, the science which enables machines to see.
 A brief summary of the substantive in my thesis is:
 
-1. End-to-end machine learning is more efficient and effective than hand-engineering algorithms for complex computer vision tasks.
+1. Machine learning is more efficient and effective than hand-engineering algorithms for complex computer vision tasks.
 2. I show how to build end-to-end deep learning models for an array of computer vision problems: [semantic segmentation](https://arxiv.org/abs/1511.00561), [instance segmentation](https://arxiv.org/abs/1705.07115), [depth prediction](https://arxiv.org/abs/1705.07115), [localisation](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf), [stereo vision](https://arxiv.org/pdf/1703.04309.pdf) and [video scene understanding](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
-3. With limited data and compute, end-to-end learning models can benefit from explicitly modelling structure of the world with geometry and modelling uncertainty to know what they don't know.
+3. With limited data and compute, deep learning models can benefit from explicitly modelling structure of the world with geometry and modelling uncertainty to know what they don't know.
 
 <video autoplay loop>
   <source src="/assets/images/research/multitask_scene_understanding.mp4" type="video/mp4">
@@ -48,16 +55,16 @@ A brief summary of the substantive in my thesis is:
 
 ## The complete abstract
 
-> Deep learning and convolutional neural networks have become the dominant tool for computer vision. These techniques excel at learning complicated representations from data using supervised learning. In particular, image recognition models now out-perform human baselines under constrained settings. However, the science of computer vision aims to build machines which can see. This requires models which can extract richer information than recognition, from images and video. In general, applying these deep learning models from recognition to other problems in computer vision is significantly more challenging.
+Deep learning and convolutional neural networks have become the dominant tool for computer vision. These techniques excel at learning complicated representations from data using supervised learning. In particular, image recognition models now out-perform human baselines under constrained settings. However, the science of computer vision aims to build machines which can see. This requires models which can extract richer information than recognition, from images and video. In general, applying these deep learning models from recognition to other problems in computer vision is significantly more challenging.
 
-> This thesis presents end-to-end deep learning architectures for a number of core computer vision problems; scene understanding, camera pose estimation, stereo vision and video semantic segmentation. Our models outperform traditional approaches and advance state-of-the-art on a number of challenging computer vision benchmarks. However, these end-to-end models are often not interpretable and require enormous quantities of training data.
+This thesis presents end-to-end deep learning architectures for a number of core computer vision problems; scene understanding, camera pose estimation, stereo vision and video semantic segmentation. Our models outperform traditional approaches and advance state-of-the-art on a number of challenging computer vision benchmarks. However, these end-to-end models are often not interpretable and require enormous quantities of training data.
 
-> To address this, we make two observations: (i) we do not need to learn everything from scratch, we know a lot about the physical world, and (ii) we cannot know everything from data, our models should be aware of what they do not know. This thesis explores these ideas using concepts from geometry and uncertainty. Specifically, we show how to improve end-to-end deep learning models by leveraging the underlying geometry of the problem. We explicitly model concepts such as epipolar geometry to learn with unsupervised learning, which improves performance. Secondly, we introduce ideas from probabilistic modelling and Bayesian deep learning to understand uncertainty in computer vision models. We show how to quantify different types of uncertainty, improving safety for real world applications.
+To address this, we make two observations: (i) we do not need to learn everything from scratch, we know a lot about the physical world, and (ii) we cannot know everything from data, our models should be aware of what they do not know. This thesis explores these ideas using concepts from geometry and uncertainty. Specifically, we show how to improve end-to-end deep learning models by leveraging the underlying geometry of the problem. We explicitly model concepts such as epipolar geometry to learn with unsupervised learning, which improves performance. Secondly, we introduce ideas from probabilistic modelling and Bayesian deep learning to understand uncertainty in computer vision models. We show how to quantify different types of uncertainty, improving safety for real world applications.
 
 ## The story
 
-When I began my PhD, I joined the controls research group at Cambridge University Engineering Department.
-My original research proposal expressed my desire to work on the control of mobile robotics.
+I began my PhD in October 2014, joining the controls research group at Cambridge University Engineering Department.
+Looking back at my original research proposal, I said that I wanted to work on the 'engineering questions to control autonomous vehicles... in uncertain and challenging environments.'
 I spent three months or so reading literature, and quickly developed the opinion that the field of robotics was most limited by perception.
 If you could obtain a reliable state of the world, control was often simple.
 However, at this time, computer vision was very fragile in the wild.
@@ -80,11 +87,13 @@ Specifically, I focus on two ideas around geometry and uncertainty.
 
 Over the last three years, I have had the pleasure of working with some incredibly talented researchers, studying a number of core computer vision problems from localisation to segmentation to stereo vision.
 
+{% include gallery id="gallery_uncertainty" caption="Bayesian deep learning for modelling uncertainty in semantic segmentation." %}
+
 ## The science
 
 This thesis consists of six chapters. Each of the main chapters introduces an end-to-end deep learning model and discusses how to apply the ideas of geometry and uncertainty.
 
-*Chatper 1 - introduction.* Motivates this work.
+*Chatper 1 - introduction.* Motivates this work within the wider field of computer vision.
 
 *Chapter 2 - scene understanding.* Introduces SegNet, modelling aleatoric and epistemic uncertainty and a method for learning multi-task scene understanding models for geometry and semantics.
 
@@ -111,7 +120,7 @@ This thesis explains how to extract a robust state of the world -- semantics, mo
 I'm now excited about applying these ideas to robotics and learning to reason from perception to action.
 I'm working with an amazing team on autonomous driving. 
 We're using ideas from computer vision and reinforcement learning to build the most data-efficient self-driving car.
-And, we're hiring! [wayve.ai/careers](https://wayve.ai/careers)
+And, we're hiring, come work with me! [wayve.ai/careers](https://wayve.ai/careers)
 
 > I owe my gratitude to many people while writing this thesis, many of whom are mentioned in the acknowlegements, but also many more who also inspired this work. Thanks!
 
