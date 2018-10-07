@@ -119,7 +119,7 @@ $$
 
 $$
   \begin{align}
-    Loss = \frac{|| y - \hat{y} ||_2}{2 \sigma^2} + \log \sigma^2
+    Loss = \frac{|| y - \hat{y} ||_2}{2 \sigma^2} + \frac{1}{2} \log \sigma^2
   \end{align}
 $$
 
@@ -147,7 +147,7 @@ Trained on dataset #1 | Tested on dataset #2 | 0.461 | 4.87
 Trained on 25% dataset #1 | Tested on dataset #2 | 0.388 | 15.0
 
 These results show that when we train on less data, or test on data which is significantly different from the training set, then our epistemic uncertainty increases drastically.
-However, our aleatoric uncertainty remains relatively constant, which it should because it is tested on the same problem with the same sensor.
+However, our aleatoric uncertainty remains relatively constant -- which it should -- because it is tested on the same problem with the same sensor.
 
 # Uncertainty for multi-task learning
 
