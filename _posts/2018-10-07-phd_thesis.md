@@ -26,8 +26,9 @@ gallery_uncertainty:
 ---
 
 
-Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Prof. Joan Lasenby and Prof. Andrew Zisserman in February 2018.
-This thesis explains my research at the University of Cambridge, under the supervision of Prof Roberto Cipolla with 206 pages, 62 figures, 24 tables and 318 citations.
+Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Dr. Joan Lasenby and Prof. Andrew Zisserman in February 2018.
+This thesis presents the main narrative of my research at the University of Cambridge, under the supervision of Prof Roberto Cipolla. 
+It contains 206 pages, 62 figures, 24 tables and 318 citations.
 You can download [the complete .pdf here](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
 
 {% capture fig_thesis %}
@@ -36,24 +37,16 @@ You can download [the complete .pdf here](/media/papers/alex_kendall_phd_thesis_
   {{ fig_thesis | markdownify | remove: "<p>" | remove: "</p>" }}
 </figure>
 
-This blog post introduces the work and tells the story behind this research.
-
-## Thesis elevator pitch
-
 My thesis presents contributions to the field of computer vision, the science which enables machines to see.
-A brief summary of the substantive in my thesis is:
-
-1. Machine learning is more efficient and effective than hand-engineering algorithms for complex computer vision tasks.
-2. I show how to build end-to-end deep learning models for an array of computer vision problems: [semantic segmentation](https://arxiv.org/abs/1511.00561), [instance segmentation](https://arxiv.org/abs/1705.07115), [depth prediction](https://arxiv.org/abs/1705.07115), [localisation](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf), [stereo vision](https://arxiv.org/pdf/1703.04309.pdf) and [video scene understanding](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
-3. With limited data and compute, deep learning models can benefit from explicitly modelling structure of the world with geometry and modelling uncertainty to know what they don't know.
+This blog post introduces the work and tells the story behind this research.
 
 <video autoplay loop>
   <source src="/assets/images/research/multitask_scene_understanding.mp4" type="video/mp4">
 </video>
 
-> Scene understanding - one of the computer vision models developed in this thesis.
+> This thesis presents deep learning models for an array of computer vision problems: [semantic segmentation](https://arxiv.org/abs/1511.00561), [instance segmentation](https://arxiv.org/abs/1705.07115), [depth prediction](https://arxiv.org/abs/1705.07115), [localisation](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf), [stereo vision](https://arxiv.org/pdf/1703.04309.pdf) and [video scene understanding](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
 
-## The complete abstract
+## The abstract
 
 Deep learning and convolutional neural networks have become the dominant tool for computer vision. These techniques excel at learning complicated representations from data using supervised learning. In particular, image recognition models now out-perform human baselines under constrained settings. However, the science of computer vision aims to build machines which can see. This requires models which can extract richer information than recognition, from images and video. In general, applying these deep learning models from recognition to other problems in computer vision is significantly more challenging.
 
@@ -68,16 +61,15 @@ Looking back at my original research proposal, I said that I wanted to work on t
 I spent three months or so reading literature, and quickly developed the opinion that the field of robotics was most limited by perception.
 If you could obtain a reliable state of the world, control was often simple.
 However, at this time, computer vision was very fragile in the wild.
-After many weeks of lobbying Prof. Roberto Cipolla, I was able to join his research group in January 2015 and begin a PhD in computer vision.
+After many weeks of lobbying Prof. Roberto Cipolla (thanks!), I was able to join his research group in January 2015 and begin a PhD in computer vision.
 
-When I began reading computer vision literature, deep learning had just become popular in image classification, following breakthroughs on the ImageNet dataset.
+When I began reading computer vision literature, deep learning had just become popular in image classification, following inspiring breakthroughs on the ImageNet dataset.
 But it was yet to become ubiquitous in the field and be used in richer computer vision tasks such as scene understanding.
 What excited me about deep learning was that it could learn representations from data that are too complicated to hand-design.
 After studying control systems, I knew how hard modelling dynamics could be!
 
-I initially focused on building end-to-end deep learning models for computer vision, such as [SegNet](http://mi.eng.cam.ac.uk/projects/segnet/) and [PoseNet](http://mi.eng.cam.ac.uk/projects/relocalisation/).
-However, I quickly realised that this low-hanging fruit of applying end-to-end deep learning wasn't enough. 
-I've written more about this in a previous blog [here](/computer_vision/have_we_forgotten_about_geometry_in_computer_vision/).
+I initially focused on building end-to-end deep learning models for computer vision tasks which I thought were most interesting for robotics, such as [SegNet](http://mi.eng.cam.ac.uk/projects/segnet/) and [PoseNet](http://mi.eng.cam.ac.uk/projects/relocalisation/).
+However, I quickly realised that while it was a start, applying end-to-end deep learning wasn't enough.
 In my thesis, I argue that we can do better than naive end-to-end convolutional networks. 
 Especially with limited data and compute, we can form more powerful computer vision models by leveraging our knowledge of the world.
 Specifically, I focus on two ideas around geometry and uncertainty.
@@ -122,7 +114,7 @@ I'm working with an amazing team on autonomous driving.
 We're using ideas from computer vision and reinforcement learning to build the most data-efficient self-driving car.
 And, we're hiring, come work with me! [wayve.ai/careers](https://wayve.ai/careers)
 
-> I owe my gratitude to many people while writing this thesis, many of whom are mentioned in the acknowlegements, but also many more who also inspired this work. Thanks!
+> I'd like to give a huge thank you to everyone who motivated, distracted and inspired me while writing this thesis.
 
 Here's the bibtex if you'd like to cite this work.
 
