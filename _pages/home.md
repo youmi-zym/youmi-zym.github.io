@@ -38,8 +38,7 @@ feature_row:
 
 I am the co-founder and at CTO at [Wayve](https://wayve.ai/), in addition to holding a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/).
 I grew up in New Zealand, studied mechatronics engineering at [Auckland University](https://www.auckland.ac.nz/), was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/), helped design the algorithms which fly the [Skydio drone](https://www.skydio.com/), before completing a PhD in computer vision and robotics at [Cambridge University](https://www.cam.ac.uk/). 
-I have co-authored many publications at leading computer vision, robotics and machine learning conferences.
-My algorithms have been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight. 
+My work has appeared at leading computer vision, robotics and machine learning conferences. 
 I'm interested in building robots which can learn to do more intelligent things with less data.
 
 <div id='featured'></div>
