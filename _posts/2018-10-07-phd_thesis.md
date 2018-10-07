@@ -66,10 +66,9 @@ After many weeks of lobbying Prof. Roberto Cipolla (thanks!), I was able to join
 When I began reading computer vision literature, deep learning had just become popular in image classification, following inspiring breakthroughs on the ImageNet dataset.
 But it was yet to become ubiquitous in the field and be used in richer computer vision tasks such as scene understanding.
 What excited me about deep learning was that it could learn representations from data that are too complicated to hand-design.
-After studying control systems, I knew how hard modelling dynamics could be!
 
-I initially focused on building end-to-end deep learning models for computer vision tasks which I thought were most interesting for robotics, such as [SegNet](http://mi.eng.cam.ac.uk/projects/segnet/) and [PoseNet](http://mi.eng.cam.ac.uk/projects/relocalisation/).
-However, I quickly realised that while it was a start, applying end-to-end deep learning wasn't enough.
+I initially focused on building end-to-end deep learning models for computer vision tasks which I thought were most interesting for robotics, such as [scene understanding (SegNet)](http://mi.eng.cam.ac.uk/projects/segnet/) and [localisation (PoseNet)](http://mi.eng.cam.ac.uk/projects/relocalisation/).
+However, I quickly realised that, while it was a start, applying end-to-end deep learning wasn't enough.
 In my thesis, I argue that we can do better than naive end-to-end convolutional networks. 
 Especially with limited data and compute, we can form more powerful computer vision models by leveraging our knowledge of the world.
 Specifically, I focus on two ideas around geometry and uncertainty.
@@ -110,7 +109,7 @@ This thesis consists of six chapters. Each of the main chapters introduces an en
 
 This thesis explains how to extract a robust state of the world -- semantics, motion and geometry -- from video.
 I'm now excited about applying these ideas to robotics and learning to reason from perception to action.
-I'm working with an amazing team on autonomous driving. 
+I'm working with an amazing team on autonomous driving, bringing together the worlds of robotics and machine learning. 
 We're using ideas from computer vision and reinforcement learning to build the most data-efficient self-driving car.
 And, we're hiring, come work with me! [wayve.ai/careers](https://wayve.ai/careers)
 
