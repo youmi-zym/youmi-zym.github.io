@@ -47,7 +47,7 @@ I'm interested in building robots which can learn to do more intelligent things 
 
 ## News and Media
 * May 2018: [Wayve](https://wayve.ai/) comes out of stealth and announces the development of end-to-end machine learning for self-driving [[techcrunch](https://techcrunch.com/2018/05/22/wayve/), [reuters](https://uk.reuters.com/video/2018/07/27/autonomous-car-teaches-itself-to-drive-i?videoId=449225967&videoChannel=4000)]
-* February 2017: my PhD thesis was approved after a viva examination by Prof. Andrew Zisserman and Dr. Joan Lasenby
+* February 2018: my PhD thesis was approved after a viva examination by Prof. Andrew Zisserman and Dr. Joan Lasenby
 * January 2017: I have been awarded a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/)
 * December 2016: [SegNet](https://arxiv.org/pdf/1511.00561v3.pdf) was published [[techcrunch](https://techcrunch.com/2015/12/22/a-new-system-lets-self-driving-cars-learn-streets-on-the-fly/), [fortune](http://fortune.com/2015/12/29/driverless-car-sensor-segnet/), [cambridge](https://www.cam.ac.uk/research/news/teaching-machines-to-see-new-smartphone-based-system-could-accelerate-development-of-driverless-cars)]
 
