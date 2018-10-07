@@ -1,85 +1,56 @@
 ---
-layout: splash
+layout: single
 read_time: false
 comments: false
 share: false
-title: <br><br><br><br>Alex Kendall
+title: <br><br><br><br><br><br>Alex Kendall
 permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/trinity.jpg
-  cta_url: "#featured"
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 excerpt: "Research Fellow in Computer Vision and Robotics at the University of Cambridge<br><br>"
 feature_row:
   - image_path: /assets/images/uncertainty.jpg
     alt: "Semantic Segmentation"
     title: "Blog"
-    excerpt: "A discussion about research I am interested in."
+    excerpt: "Blog about my research."
     url: "blog"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/poster.jpg
     alt: "Uncertainty with Bayesian Deep Learning"
     title: "Research"
-    excerpt: "My research into deep learning algorithms for computer vision and robotics."
+    excerpt: "Deep learning for robotics."
     url: "research"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/tti_presentation.jpg
+  - image_path: /assets/images/alex_google_talk.png
     title: "Talks"
-    excerpt: "Further information and resources for talks I have given."
+    excerpt: "Presentations and videos."
     url: "talks"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
 
+## Brief Bio
+
+I am the co-founder and at CTO at [Wayve](https://wayve.ai/), in addition to holding a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/) at the [University of Cambridge](https://www.cam.ac.uk/).
+I grew up in New Zealand, studied mechatronics engineering at [Auckland University](https://www.auckland.ac.nz/), was awarded a [Woolf Fisher Scholarship](http://www.woolffishertrust.co.nz/), helped design the algorithms which fly the [Skydio drone](https://www.skydio.com/), before completing a PhD in computer vision and robotics at [Cambridge University](https://www.cam.ac.uk/). 
+I have co-authored many publications at leading computer vision, robotics and machine learning conferences.
+My algorithms have been used to power smart-city infrastructure, control self-driving cars and enable next-generation drone flight. 
+I'm interested in building robots which can learn to do more intelligent things with less data.
+
 <div id='featured'></div>
 
 {% include feature_row %}
 
-## Latest News
-* May 2018: [Wayve](https://wayve.ai/) comes out of stealth and announces the development of end-to-end machine learning for self-driving
-* January 2018: New paper on multitask deep learning accepted as a spotlight presentation and I am co-organising the first workshop on [Deep Learning for Visual SLAM](http://www.visualslam.ai) at [CVPR 2018](http://cvpr2018.thecvf.com/)
-* September 2017: Two papers accepted to [NIPS 2017](https://nips.cc/) on [Bayesian deep learning](https://arxiv.org/pdf/1703.04977.pdf) (spotlight oral) and a new technique called [Concrete Dropout](https://arxiv.org/pdf/1705.07832.pdf)
-* June 2017: At [ICCV 2017](http://iccv2017.thecvf.com/) I will be presenting a [Spotlight Oral paper](https://arxiv.org/pdf/1703.04309.pdf) and also giving an invited talk at the [Geometry Meets Deep Learning Workshop](https://sites.google.com/site/deepgeometry2017/home)
-* June 2017: We will be presenting a [new paper on safety in autonomous driving](https://www.ijcai.org/proceedings/2017/0661.pdf) at IJCAI 2017, in Melbourne, Australia
-* March 2017: [New paper](https://arxiv.org/abs/1704.00390) on relocalisation with deep learning using projection geometry at CVPR 2017, in Hawaii, USA
-* February 2017: Torsten, Giorgos, Akihiko and I will be running the [tutorial on Large Scale Localisation](https://sites.google.com/view/lsvpr2017/home) at CVPR this year
-* January 2017: Our algorithm [GC-Net](https://arxiv.org/pdf/1703.04309.pdf) is ranked 1st on the KITTI [2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo) & [2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) Stereo Leaderboards
+## News and Media
+* May 2018: [Wayve](https://wayve.ai/) comes out of stealth and announces the development of end-to-end machine learning for self-driving [[techcrunch](https://techcrunch.com/2018/05/22/wayve/), [reuters](https://uk.reuters.com/video/2018/07/27/autonomous-car-teaches-itself-to-drive-i?videoId=449225967&videoChannel=4000)]
+* February 2017: my PhD thesis was approved after a viva examination by Prof. Andrew Zisserman and Dr. Joan Lasenby
 * January 2017: I have been awarded a research fellowship at [Trinity College](https://www.trin.cam.ac.uk/)
+* December 2016: [SegNet](https://arxiv.org/pdf/1511.00561v3.pdf) was published [[techcrunch](https://techcrunch.com/2015/12/22/a-new-system-lets-self-driving-cars-learn-streets-on-the-fly/), [fortune](http://fortune.com/2015/12/29/driverless-car-sensor-segnet/), [cambridge](https://www.cam.ac.uk/research/news/teaching-machines-to-see-new-smartphone-based-system-could-accelerate-development-of-driverless-cars)]
 
-
-<center><a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('old_news');"><small><i>-- older news --</i></small></a></center>
-<div id="old_news" style="display:none;">
-<ul>
-<li>December 2016: <a href="https://arxiv.org/pdf/1511.00561v3.pdf>SegNet</a> has just been published in IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
-<li>May 2016: We are presenting our <a href="http://arxiv.org/abs/1509.05909">paper</a> on probabilistic localisation with deep learning at ICRA in Stockholm, Sweden</li>
-<li>December 2015: We are presenting our <a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">paper</a> on localisation with deep learning at ICCV in Santiago, Chile</li>
-</ul>
-</div>
-     
-
-<script type="text/javascript">
-   function toggle_visibility(block_id) {
-       var e = document.getElementById(block_id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-   }
-</script>	
-
-## In the Media
-
-<figure class="six">
-	<a href="http://www.cam.ac.uk/research/news/teaching-machines-to-see-new-smartphone-based-system-could-accelerate-development-of-driverless-cars"><img src="/assets/images/logos/cam.png"></a>
-	<a href="http://www.dailymail.co.uk/sciencetech/article-3371075/See-world-eyes-driverless-car-town-Interactive-tool-reveals-autonomous-vehicles-navigate-streets.html"><img src="/assets/images/logos/dailymail.jpg"></a>
-	<a href="http://www.seeker.com/a-way-for-driverless-cars-to-see-the-road-and-react-1770642552.html"><img src="/assets/images/logos/discovery.png"></a>
-	<a href="http://fortune.com/2015/12/29/driverless-car-sensor-segnet/"><img src="/assets/images/logos/fortune.gif"></a>
-	<a href="http://gizmodo.com/engineers-are-teaching-your-smartphone-to-think-like-an-1749040590"><img src="/assets/images/logos/gizmodo.png"></a>
-	<a href="https://techcrunch.com/2015/12/22/a-new-system-lets-self-driving-cars-learn-streets-on-the-fly/"><img src="/assets/images/logos/techcrunch.png"></a>
-</figure>
 
 ---
