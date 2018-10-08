@@ -26,7 +26,7 @@ gallery_uncertainty:
 ---
 
 
-Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Dr. Joan Lasenby and Prof. Andrew Zisserman in February 2018.
+Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Dr. Joan Lasenby and Prof. Andrew Zisserman in February 2018 and has just been approved.
 This thesis presents the main narrative of my research at the University of Cambridge, under the supervision of Prof Roberto Cipolla. 
 It contains 206 pages, 62 figures, 24 tables and 318 citations.
 You can download [the complete .pdf here](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
@@ -84,15 +84,15 @@ Over the last three years, I have had the pleasure of working with some incredib
 
 This thesis consists of six chapters. Each of the main chapters introduces an end-to-end deep learning model and discusses how to apply the ideas of geometry and uncertainty.
 
-*Chatper 1 - introduction.* Motivates this work within the wider field of computer vision.
+*Chatper 1 - Introduction.* Motivates this work within the wider field of computer vision.
 
-*Chapter 2 - scene understanding.* Introduces SegNet, modelling aleatoric and epistemic uncertainty and a method for learning multi-task scene understanding models for geometry and semantics.
+*Chapter 2 - Scene Understanding.* Introduces SegNet, modelling aleatoric and epistemic uncertainty and a method for learning multi-task scene understanding models for geometry and semantics.
 
-*Chapter 3 - localisation.* Describes PoseNet for efficient localisation, with improvements using geometric reprojection error and estimating relocalisation uncertainty.
+*Chapter 3 - Localisation.* Describes PoseNet for efficient localisation, with improvements using geometric reprojection error and estimating relocalisation uncertainty.
 
-*Chapter 4 - stereo vision.* Designs an end-to-end model for stereo vision, using geometry and shows how to leverage uncertainty and self-supervised learning to improve performance.
+*Chapter 4 - Stereo Vision.* Designs an end-to-end model for stereo vision, using geometry and shows how to leverage uncertainty and self-supervised learning to improve performance.
 
-*Chapter 5 - video scene understanding.* Illustrates a video scene understanding model for learning semantics, motion and geometry.
+*Chapter 5 - Video Scene Understanding.* Illustrates a video scene understanding model for learning semantics, motion and geometry.
 
 *Chapter 6 - Conclusions.* Describes limitations of this research and future challenges.
 
