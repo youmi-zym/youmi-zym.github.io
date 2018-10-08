@@ -126,6 +126,6 @@ Here's the bibtex if you'd like to cite this work.
   school={University of Cambridge}
 }
 </code></pre></div></small>
+</div>
 
 And the source code for the latex document is [here](https://github.com/alexgkendall/thesis).
-</div>
