@@ -26,7 +26,7 @@ gallery_uncertainty:
 ---
 
 
-Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Dr. Joan Lasenby and Prof. Andrew Zisserman in February 2018 and has just been approved.
+Today I can share my final PhD thesis, which I submitted in November 2017. It was examined by Dr. Joan Lasenby and Prof. Andrew Zisserman in February 2018 and has just been approved for publication.
 This thesis presents the main narrative of my research at the University of Cambridge, under the supervision of Prof Roberto Cipolla. 
 It contains 206 pages, 62 figures, 24 tables and 318 citations.
 You can download [the complete .pdf here](/media/papers/alex_kendall_phd_thesis_compressed.pdf).
