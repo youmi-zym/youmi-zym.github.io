@@ -40,6 +40,22 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ## 2018
 
 > <small>
+    Thomas Roddick, Alex Kendall and Roberto Cipolla. Orthographic Feature Transform for Monocular 3D Object Detection.  arXiv preprint arXiv:1811.08188, 2018.<br>
+    (<a href="https://arxiv.org/pdf/1811.08188.pdf" style="color:gray">.pdf</a>)
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_mono3d');">bibtex</a>)
+</small>
+<div id="bibtex_mono3d" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{roddick2018orthographic,
+  title={Orthographic Feature Transform for Monocular 3D Object Detection},
+  author={Roddick, Thomas and Kendall, Alex and Cipolla, Roberto},
+  journal={arXiv preprint arXiv:1811.08188},
+  year={2018}
+}
+</code></pre></div></small>
+</div>
+
+> <small>
     Alex Kendall, Jeffrey Hawke, David Janz, Przemyslaw Mazur, Daniele Reda, John-Mark Allen, Vinh-Dieu Lam, Alex Bewley, Amar Shah. Learning to Drive in a Day.  arXiv preprint arXiv:1807.00412, 2018.<br>
     (<a href="https://arxiv.org/pdf/1807.00412.pdf" style="color:gray">.pdf</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_l2diad');">bibtex</a>)
