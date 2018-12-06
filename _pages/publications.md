@@ -25,6 +25,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     Alex Kendall. Geometry and Uncertainty in Deep Learning for Computer Vision. PhD Thesis, University of Cambridge, 2018.<br>
     (<a href="/media/papers/alex_kendall_phd_thesis_compressed.pdf" style="color:gray">.pdf</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_phd');">bibtex</a>)
+    (<a href="https://github.com/alexgkendall/thesis" style="color:gray">source code</a>)
 </small>
 <div id="bibtex_phd" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
