@@ -41,6 +41,24 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ## 2018
 
 > <small>
+    Alex Bewley, Jessica Rigley, Yuxuan Liu, Jeffrey Hawke, Richard Shen, Vinh-Dieu Lam and Alex Kendall. 
+Learning to Drive from Simulation without Real World Labels.  arXiv preprint arXiv:1812.03823, 2018.<br>
+    (<a href="https://arxiv.org/pdf/1812.03823.pdf" style="color:gray">.pdf</a>)
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_sim2real');">bibtex</a>)
+</small>
+<div id="bibtex_sim2real" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{bewley2018sim2real,
+  title={
+Learning to Drive from Simulation without Real World Labels},
+  author={Bewley, Alex and Rigley, Jessica and Liu, Yuxuan and Hawke, Jeffrey and Shen, Richard and Lam, Vinh-Dieu and Kendall, Alex},
+  journal={arXiv preprint arXiv:1812.03823},
+  year={2018}
+}
+</code></pre></div></small>
+</div>
+
+> <small>
     Thomas Roddick, Alex Kendall and Roberto Cipolla. Orthographic Feature Transform for Monocular 3D Object Detection.  arXiv preprint arXiv:1811.08188, 2018.<br>
     (<a href="https://arxiv.org/pdf/1811.08188.pdf" style="color:gray">.pdf</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_mono3d');">bibtex</a>)
