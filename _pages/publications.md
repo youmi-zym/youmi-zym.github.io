@@ -44,6 +44,8 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     Alex Bewley, Jessica Rigley, Yuxuan Liu, Jeffrey Hawke, Richard Shen, Vinh-Dieu Lam and Alex Kendall. 
 Learning to Drive from Simulation without Real World Labels.  arXiv preprint arXiv:1812.03823, 2018.<br>
     (<a href="https://arxiv.org/pdf/1812.03823.pdf" style="color:gray">.pdf</a>)
+    (<a href="https://youtu.be/D7ZglEPu4lM" style="color:gray">video</a>)
+    (<a href="https://wayve.ai/blog/sim2real" style="color:gray">blog</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_sim2real');">bibtex</a>)
 </small>
 <div id="bibtex_sim2real" style="display:none;">
@@ -77,6 +79,8 @@ Learning to Drive from Simulation without Real World Labels},
 > <small>
     Alex Kendall, Jeffrey Hawke, David Janz, Przemyslaw Mazur, Daniele Reda, John-Mark Allen, Vinh-Dieu Lam, Alex Bewley, Amar Shah. Learning to Drive in a Day.  arXiv preprint arXiv:1807.00412, 2018.<br>
     (<a href="https://arxiv.org/pdf/1807.00412.pdf" style="color:gray">.pdf</a>)
+    (<a href="https://youtu.be/eRwTbRtnT1I" style="color:gray">video</a>)
+    (<a href="https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning" style="color:gray">blog</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_l2diad');">bibtex</a>)
 </small>
 <div id="bibtex_l2diad" style="display:none;">
