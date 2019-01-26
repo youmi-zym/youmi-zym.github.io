@@ -22,7 +22,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ## PhD Thesis
 
 > <small>
-    Alex Kendall. Geometry and Uncertainty in Deep Learning for Computer Vision. PhD Thesis, University of Cambridge, 2018.<br>
+    Alex Kendall. Geometry and Uncertainty in Deep Learning for Computer Vision. PhD Thesis, University of Cambridge, 2017.<br>
     (<a href="/media/papers/alex_kendall_phd_thesis_compressed.pdf" style="color:gray">.pdf</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_phd');">bibtex</a>)
     (<a href="https://github.com/alexgkendall/thesis" style="color:gray">source code</a>)
@@ -32,17 +32,16 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 <code>@phdthesis{kendall2018phd,
   title={Geometry and Uncertainty in Deep Learning for Computer Vision},
   author={Kendall, Alex},
-  year={2018},
+  year={2017},
   school={University of Cambridge}
 }
 </code></pre></div></small>
 </div>
 
-## 2018
+## 2019
 
 > <small>
-    Alex Bewley, Jessica Rigley, Yuxuan Liu, Jeffrey Hawke, Richard Shen, Vinh-Dieu Lam and Alex Kendall. 
-Learning to Drive from Simulation without Real World Labels.  arXiv preprint arXiv:1812.03823, 2018.<br>
+    Alex Bewley, Jessica Rigley, Yuxuan Liu, Jeffrey Hawke, Richard Shen, Vinh-Dieu Lam and Alex Kendall. Learning to Drive from Simulation without Real World Labels. Proceedings of the International Conference on Robotics and Automation (ICRA), 2019.<br>
     (<a href="https://arxiv.org/pdf/1812.03823.pdf" style="color:gray">.pdf</a>)
     (<a href="https://youtu.be/D7ZglEPu4lM" style="color:gray">video</a>)
     (<a href="https://wayve.ai/blog/sim2real" style="color:gray">blog</a>)
@@ -50,15 +49,35 @@ Learning to Drive from Simulation without Real World Labels.  arXiv preprint arX
 </small>
 <div id="bibtex_sim2real" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
-<code>@article{bewley2018sim2real,
+<code>@inproceedings{bewley2019sim2real,
   title={
 Learning to Drive from Simulation without Real World Labels},
   author={Bewley, Alex and Rigley, Jessica and Liu, Yuxuan and Hawke, Jeffrey and Shen, Richard and Lam, Vinh-Dieu and Kendall, Alex},
-  journal={arXiv preprint arXiv:1812.03823},
-  year={2018}
+  booktitle={Proceedings of the International Conference on Robotics and Automation ({ICRA})},
+  year={2019}
 }
 </code></pre></div></small>
 </div>
+
+> <small>
+    Alex Kendall, Jeffrey Hawke, David Janz, Przemyslaw Mazur, Daniele Reda, John-Mark Allen, Vinh-Dieu Lam, Alex Bewley, Amar Shah. Learning to Drive in a Day. Proceedings of the International Conference on Robotics and Automation (ICRA), 2019.<br>
+    (<a href="https://arxiv.org/pdf/1807.00412.pdf" style="color:gray">.pdf</a>)
+    (<a href="https://youtu.be/eRwTbRtnT1I" style="color:gray">video</a>)
+    (<a href="https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning" style="color:gray">blog</a>)
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_l2diad');">bibtex</a>)
+</small>
+<div id="bibtex_l2diad" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@inproceedings{kendall2019learning,
+  title={Learning to Drive in a Day},
+  author={Kendall, Alex and Hawke, Jeffrey and Janz, David and Mazur, Przemyslaw and Reda, Daniele and Allen, John-Mark and Lam, Vinh-Dieu and Bewley, Alex and Shah, Amar},
+  booktitle={Proceedings of the International Conference on Robotics and Automation ({ICRA})},
+  year={2019}
+}
+</code></pre></div></small>
+</div>
+
+## 2018
 
 > <small>
     Thomas Roddick, Alex Kendall and Roberto Cipolla. Orthographic Feature Transform for Monocular 3D Object Detection.  arXiv preprint arXiv:1811.08188, 2018.<br>
@@ -71,24 +90,6 @@ Learning to Drive from Simulation without Real World Labels},
   title={Orthographic Feature Transform for Monocular 3D Object Detection},
   author={Roddick, Thomas and Kendall, Alex and Cipolla, Roberto},
   journal={arXiv preprint arXiv:1811.08188},
-  year={2018}
-}
-</code></pre></div></small>
-</div>
-
-> <small>
-    Alex Kendall, Jeffrey Hawke, David Janz, Przemyslaw Mazur, Daniele Reda, John-Mark Allen, Vinh-Dieu Lam, Alex Bewley, Amar Shah. Learning to Drive in a Day.  arXiv preprint arXiv:1807.00412, 2018.<br>
-    (<a href="https://arxiv.org/pdf/1807.00412.pdf" style="color:gray">.pdf</a>)
-    (<a href="https://youtu.be/eRwTbRtnT1I" style="color:gray">video</a>)
-    (<a href="https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning" style="color:gray">blog</a>)
-    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_l2diad');">bibtex</a>)
-</small>
-<div id="bibtex_l2diad" style="display:none;">
-<small><div class="highlighter-rouge"><pre class="highlight">
-<code>@article{kendall2018learning,
-  title={Learning to Drive in a Day},
-  author={Kendall, Alex and Hawke, Jeffrey and Janz, David and Mazur, Przemyslaw and Reda, Daniele and Allen, John-Mark and Lam, Vinh-Dieu and Bewley, Alex and Shah, Amar},
-  journal={arXiv preprint arXiv:1807.00412},
   year={2018}
 }
 </code></pre></div></small>
