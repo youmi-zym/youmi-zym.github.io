@@ -11,7 +11,7 @@ header:
   overlay_image: /assets/images/blog/wayve_drone.jpg
 excerpt: "<br><br><br>"
 categories:
-  - reinforcement learning
+  - reinforcement_learning
 tags:
   - robotics
 ---
