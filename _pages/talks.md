@@ -12,6 +12,30 @@ header:
   overlay_image: /assets/images/trinity.jpg
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 
+feature_row_cvpr19:
+  - image_path: /media/presentations/kendall_cvpr_2019.jpg
+    alt: "Alex Kendall, Representation Learning for Autonomous Driving, CVPR 2019"
+    title: 'Representation Learning for Autonomous Driving'
+    excerpt: "Keynotes at CVPR Workshops, June 2019; (1) Workshop on Autonomous Driving, (2) Safe Artificial Intelligence for Autonomous Driving and (3) Uncertainty and Robustness in Deep Visual Learning"    
+    btn_label: "Autonomous Driving (.pdf)"
+    btn_class: "btn--inverse"
+    url: "/media/presentations/kendall_autonomous_driving_workshop_cvpr_2019.pdf"
+    btn_class2: "btn--inverse"
+    btn_label2: "Uncertainty & Robustness (.pdf)"
+    url2: "/media/presentations/kendall_uncertainty_workshop_cvpr_2019.pdf"
+
+feature_row_cogx:
+  - image_path: /media/presentations/kendall_cogx_2019.jpg
+    alt: "Alex Kendall, Machine Learning to Drive, CogX, June 2019"
+    title: 'Machine Learning to Drive'
+    excerpt: "<ul><li>CogX Keynote, The Festival of AI and Emerging Technology, June 2019</li></ul>"
+    url: "https://cogx.co/"
+    btn_label: "Website"
+    btn_class: "btn--inverse"
+    btn_class2: "btn--inverse"
+    btn_label2: "Presentation (.pdf)"
+    url2: "/media/presentations/cogx_kendall_2019.pdf"
+
 feature_row_trinity:
   - image_path: /assets/images/presentations/alex_google.jpg
     alt: "Alex Kendall: Trinity College Fellows' Research Talk"
@@ -80,6 +104,8 @@ feature_row_perse:
     
 ---
 
+{% include feature_row id="feature_row_cvpr19" type="left" %}
+{% include feature_row id="feature_row_cogx" type="left" %}
 {% include feature_row id="feature_row_trinity" type="left" %}
 {% include feature_row id="feature_row_mllondon" type="left" %}
 {% include feature_row id="feature_row_lsvpr" type="left" %}
