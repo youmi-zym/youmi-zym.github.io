@@ -28,13 +28,22 @@ feature_row_cogx:
   - image_path: /media/presentations/kendall_cogx_2019.jpg
     alt: "Alex Kendall, Machine Learning to Drive, CogX, June 2019"
     title: 'Machine Learning to Drive'
-    excerpt: "<ul><li>CogX Keynote, <a href="https://cogx.co/">The Festival of AI and Emerging Technology</a>, London, June 2019</li></ul>"
+    excerpt: '<ul><li>CogX Keynote, <a href="https://cogx.co/">The Festival of AI and Emerging Technology</a>, London, June 2019</li></ul>'
     url: "https://youtu.be/YY0tFJa9GoA?t=874"
     btn_label: "Video (youtube)"
     btn_class: "btn--inverse"
     btn_class2: "btn--inverse"
     btn_label2: "Presentation (.pdf)"
     url2: "/media/presentations/cogx_kendall_2019.pdf"
+
+feature_row_websummit:
+  - image_path: /media/presentations/websummit.jpg
+    alt: "Alex Kendall: WebSummit PITCH"
+    title: 'WebSummit PITCH Competition Final'
+    excerpt: 'The "greatest startup competition in the world", WebSummit PITCH Final, Lisbon, Portugal, November 2018'
+    url: "https://youtu.be/sn-_29bknz8?t=548"
+    btn_label: "Video (youtube)"
+    btn_class: "btn--inverse"
 
 feature_row_trinity:
   - image_path: /assets/images/presentations/alex_google.jpg
@@ -106,6 +115,7 @@ feature_row_perse:
 
 {% include feature_row id="feature_row_cvpr19" type="left" %}
 {% include feature_row id="feature_row_cogx" type="left" %}
+{% include feature_row id="feature_row_websummit" type="left" %}
 {% include feature_row id="feature_row_trinity" type="left" %}
 {% include feature_row id="feature_row_mllondon" type="left" %}
 {% include feature_row id="feature_row_lsvpr" type="left" %}
