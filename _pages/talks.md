@@ -29,8 +29,8 @@ feature_row_cogx:
     alt: "Alex Kendall, Machine Learning to Drive, CogX, June 2019"
     title: 'Machine Learning to Drive'
     excerpt: "<ul><li>CogX Keynote, The Festival of AI and Emerging Technology, June 2019</li></ul>"
-    url: "https://cogx.co/"
-    btn_label: "Website"
+    url: "https://youtu.be/YY0tFJa9GoA?t=874"
+    btn_label: "Video (youtube)"
     btn_class: "btn--inverse"
     btn_class2: "btn--inverse"
     btn_label2: "Presentation (.pdf)"
