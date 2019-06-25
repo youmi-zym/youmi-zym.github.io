@@ -15,8 +15,8 @@ header:
 feature_row_cvpr19:
   - image_path: /media/presentations/kendall_cvpr_2019.jpg
     alt: "Alex Kendall, Representation Learning for Autonomous Driving, CVPR 2019"
-    title: 'Representation Learning for Autonomous Driving'
-    excerpt: "Keynotes at CVPR Workshops, June 2019; (1) Workshop on Autonomous Driving, (2) Safe Artificial Intelligence for Autonomous Driving and (3) Uncertainty and Robustness in Deep Visual Learning"    
+    title: 'Keynotes at CVPR Workshops, Long Beach, USA, June 2019.'
+    excerpt: '<ul><li><a href="https://sites.google.com/view/wad2019">Workshop on Autonomous Driving</a></li><li><a href="https://sites.google.com/view/saiad-wscvpr19">Safe Artificial Intelligence for Autonomous Driving</a></li><li><a href="https://sites.google.com/view/uncertainty2019">Uncertainty and Robustness in Deep Visual Learning</a></li></ul>'    
     btn_label: "Autonomous Driving (.pdf)"
     btn_class: "btn--inverse"
     url: "/media/presentations/kendall_autonomous_driving_workshop_cvpr_2019.pdf"
