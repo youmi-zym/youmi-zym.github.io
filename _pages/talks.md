@@ -23,6 +23,9 @@ feature_row_cvpr19:
     btn_class2: "btn--inverse"
     btn_label2: "Uncertainty & Robustness (.pdf)"
     url2: "/media/presentations/kendall_uncertainty_workshop_cvpr_2019.pdf"
+    btn_class3: "btn--inverse"
+    btn_label3: "Uncertainty & Robustness (.pptx, 2gb!)"
+    url3: "https://drive.google.com/open?id=1gFm-b4yaNQWDmneoYsXrED3Wu4o9kG9k"
 
 feature_row_cogx:
   - image_path: /media/presentations/kendall_cogx_2019.jpg
@@ -30,7 +33,7 @@ feature_row_cogx:
     title: 'Machine Learning to Drive'
     excerpt: '<ul><li>CogX Keynote, <a href="https://cogx.co/">The Festival of AI and Emerging Technology</a>, London, June 2019</li></ul>'
     url: "https://youtu.be/YY0tFJa9GoA?t=874"
-    btn_label: "Video (youtube)"
+    btn_label: "Video (YouTube)"
     btn_class: "btn--inverse"
     btn_class2: "btn--inverse"
     btn_label2: "Presentation (.pdf)"
@@ -42,7 +45,7 @@ feature_row_websummit:
     title: 'WebSummit PITCH Competition Final'
     excerpt: 'The "greatest startup competition in the world", WebSummit PITCH Final, Lisbon, Portugal, November 2018'
     url: "https://youtu.be/sn-_29bknz8?t=548"
-    btn_label: "Video (youtube)"
+    btn_label: "Video (YouTube)"
     btn_class: "btn--inverse"
 
 feature_row_trinity:
@@ -51,7 +54,7 @@ feature_row_trinity:
     title: 'Teaching Robots to See with Computer Vision?'
     excerpt: "<ul><li>Trinity College Fellows' Research Talk, May 2018</li></ul>"
     url: "https://www.youtube.com/watch?v=NdlKvVe7Vy4"
-    btn_label: "Video (youtube)"
+    btn_label: "Video (YouTube)"
     btn_class: "btn--inverse"
 
 feature_row_mllondon:
@@ -99,7 +102,7 @@ feature_row_tti:
     title: 'TTI/ Vanguard, "Networks, Sensors, & Mobility"'
     excerpt: '3rd May 2016, San Francisco, USA.'
     url: "https://www.youtube.com/watch?v=hyEPnLb5abU"
-    btn_label: "Video"
+    btn_label: "Video (YouTube)"
     btn_class: "btn--inverse"
     
 feature_row_perse:
