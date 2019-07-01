@@ -41,6 +41,22 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ## 2019
 
 > <small>
+    Thomas Roddick, Alex Kendall and Roberto Cipolla. Orthographic Feature Transform for Monocular 3D Object Detection.  Proceedings of the British Machine Vision Conference (BMVC), 2019.<br>
+    (<a href="https://arxiv.org/pdf/1811.08188.pdf" style="color:gray">.pdf</a>)
+    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_mono3d');">bibtex</a>)
+</small>
+<div id="bibtex_mono3d" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{roddick2018orthographic,
+  title={Orthographic Feature Transform for Monocular 3D Object Detection},
+  author={Roddick, Thomas and Kendall, Alex and Cipolla, Roberto},
+  booktitle={Proceedings of the British Machine Vision Conference ({BMVC})},
+  year={2019}
+}
+</code></pre></div></small>
+</div>
+
+> <small>
     Alex Bewley, Jessica Rigley, Yuxuan Liu, Jeffrey Hawke, Richard Shen, Vinh-Dieu Lam and Alex Kendall. Learning to Drive from Simulation without Real World Labels. Proceedings of the International Conference on Robotics and Automation (ICRA), 2019.<br>
     (<a href="https://arxiv.org/pdf/1812.03823.pdf" style="color:gray">.pdf</a>)
     (<a href="https://youtu.be/D7ZglEPu4lM" style="color:gray">video</a>)
@@ -78,22 +94,6 @@ Learning to Drive from Simulation without Real World Labels},
 </div>
 
 ## 2018
-
-> <small>
-    Thomas Roddick, Alex Kendall and Roberto Cipolla. Orthographic Feature Transform for Monocular 3D Object Detection.  arXiv preprint arXiv:1811.08188, 2018.<br>
-    (<a href="https://arxiv.org/pdf/1811.08188.pdf" style="color:gray">.pdf</a>)
-    (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_mono3d');">bibtex</a>)
-</small>
-<div id="bibtex_mono3d" style="display:none;">
-<small><div class="highlighter-rouge"><pre class="highlight">
-<code>@article{roddick2018orthographic,
-  title={Orthographic Feature Transform for Monocular 3D Object Detection},
-  author={Roddick, Thomas and Kendall, Alex and Cipolla, Roberto},
-  journal={arXiv preprint arXiv:1811.08188},
-  year={2018}
-}
-</code></pre></div></small>
-</div>
 
 > <small>
     Alex Kendall, Yarin Gal and Roberto Cipolla. Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics.  Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.<br>
