@@ -12,6 +12,18 @@ header:
   overlay_image: /assets/images/trinity.jpg
   caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 
+feature_row_icvss19:
+  - image_path: /assets/images/icvss_2019.jpg
+    alt: "Alex Kendall, Deep Learning for Scene Understanding, ICVSS, Sicily, 2019"
+    title: 'Lecture on Deep Learning for Scene Understanding and Mobile Robotics'
+    excerpt: '<ul><li><a href="http://iplab.dmi.unict.it/icvss2019/">The International Computer Vision Summer School</a>, Sicily, July 2019</li></ul>'
+    btn_label: "Presentation (.pdf)"
+    btn_class: "btn--inverse"
+    url: "/media/presentations/2019_icvss_sicily_kendall.pdf"
+    btn_class2: "btn--inverse"
+    btn_label2: "Presentation (.pptx, 2.5gb!)"
+    url2: "https://drive.google.com/open?id=1hBnHdbuHAu827VlFcgOliJZWeItRUlLc"
+
 feature_row_cvpr19:
   - image_path: /media/presentations/kendall_cvpr_2019.jpg
     alt: "Alex Kendall, Representation Learning for Autonomous Driving, CVPR 2019"
@@ -116,6 +128,7 @@ feature_row_perse:
     
 ---
 
+{% include feature_row id="feature_row_icvss19" type="left" %}
 {% include feature_row id="feature_row_cvpr19" type="left" %}
 {% include feature_row id="feature_row_cogx" type="left" %}
 {% include feature_row id="feature_row_websummit" type="left" %}
