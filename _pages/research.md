@@ -27,6 +27,7 @@ In particular, I am currently working on improving the robustness and accuracy o
 The computer vision systems which I develop are primarily motivated to extract a representation which can be used to make a decision or action.
 I'm interested in learning representations to understand scenes and control the behavior of real world robots.
 For example, we designed a reinforcement learning agent which can learn to [drive a car with deep reinforcement learning](https://wayve.ai/blog/learning-to-drive-in-a-day-with-reinforcement-learning).
+We also showed, for the first time, a self-driving car which [learned to drive in simulation](https://wayve.ai/blog/sim2real).
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/l2diad.gif){: .align-center}
 
@@ -34,7 +35,8 @@ For example, we designed a reinforcement learning agent which can learn to [driv
 
 # Scene Understanding
 
-Scene understanding is a fundamental task in computer vision which requires understanding information such as the scene's semantics, geometry and motion.
+Scene understanding is a computer vision task to generate a representation of a scene which can be used to evaluate decisions or actions.
+This typically requires understanding information such as the scene's semantics, geometry and motion.
 Initially, I worked on a semantic segmentation algorithm called [SegNet](http://mi.eng.cam.ac.uk/projects/segnet/).
 More recently, I have been interested in learning a representation from a [multitask deep learning architecture](https://arxiv.org/pdf/1705.07115.pdf).
 
@@ -45,7 +47,7 @@ More recently, I have been interested in learning a representation from a [multi
 # Bayesian Deep Learning
 
 Deep learning is great for achieving state-of-the-art results, however these models cannot understand what they don't know.
-Bayesian deep learning (BDL) is a very exciting framework for understanding our model's uncertainty.
+Bayesian deep learning (BDL) is a promising framework for understanding our model's uncertainty.
 [This paper](https://arxiv.org/pdf/1703.04977.pdf) is an introduction to Bayesian deep learning for computer vision. 
 I have also found BDL useful for [localisation](http://arxiv.org/abs/1509.05909), [scene understanding](http://arxiv.org/abs/1511.02680) and [autonomous driving](https://www.ijcai.org/proceedings/2017/0661.pdf).
 
@@ -55,7 +57,7 @@ I have also found BDL useful for [localisation](http://arxiv.org/abs/1509.05909)
 
 # Localisation
 
-[PoseNet](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf) is an algorithm for relocalisation - 
+[PoseNet](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf) was the first end-to-end deep learning algorithm for relocalisation - 
 estimating the position and orientation of the camera from an image within a previously explored area. 
 It works over large outdoor urban environments or inside buildings. 
 It takes only 5ms to do this from a single colour image, [here is a demo](http://mi.eng.cam.ac.uk/projects/relocalisation/).
