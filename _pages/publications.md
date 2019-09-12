@@ -42,7 +42,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 > <small>
     Thomas Roddick, Alex Kendall and Roberto Cipolla. Orthographic Feature Transform for Monocular 3D Object Detection.  Proceedings of the British Machine Vision Conference (BMVC), 2019.<br>
-    <b>(Oral)</b>
+    <b>(Oral, Best Paper Honourable Mention)</b>
     (<a href="https://arxiv.org/pdf/1811.08188.pdf" style="color:gray">.pdf</a>)
     (<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_mono3d');">bibtex</a>)
 </small>
