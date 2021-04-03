@@ -22,8 +22,9 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ## 2020
 
 > <small>
-    Youmin Zhang, Yimin Chen, Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, Kuiyuan Yang. Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2020.<br>
-    Adaptive unimodal cost volume filtering for deep stereo matching <br>
+    <b>Adaptive unimodal cost volume filtering for deep stereo matching</b> <br>
+    <b>Youmin Zhang</b>, Yimin Chen, Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, Kuiyuan Yang. <br>
+    Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2020.<br>
     [<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_acfnet');">Abstract</a>]
     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/6991/6845" style="color:green">PDF</a>]
     [<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_acfnet');">Bibtex</a>]
@@ -45,15 +46,19 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 <div id="abstract_acfnet" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
 <code>
-    State-of-the-art deep learning based stereo matching approaches treat disparity estimation as a regression problem, 
-    where loss function is directly defined on true disparities and their estimated ones. However, disparity is just a 
-    byproduct of a matching process modeled by cost volume, while indirectly learning cost volume driven by disparity 
-    regression is prone to overfitting since the cost volume is under constrained. In this paper, we propose to directly 
-    add constraints to the cost volume by filtering cost volume with unimodal distribution peaked at true disparities. 
-    In addition, variances of the unimodal distributions for each pixel are estimated to explicitly model matching uncertainty 
-    under different contexts. The proposed architecture achieves state-of-the-art performance on Scene Flow and two KITTI 
-    stereo benchmarks. In particular, our method ranked the 1 st place of KITTI 2012 evaluation and the 4 th place of KITTI 
-    2015 evaluation (recorded on 2019.8. 20). The codes of AcfNet are available at: https://github. com/youmi-zym/AcfNet.
+    State-of-the-art deep learning based stereo matching approaches treat disparity 
+    estimation as a regression problem, where loss function is directly defined on 
+    true disparities and their estimated ones. However, disparity is just a byproduct
+    of a matching process modeled by cost volume, while indirectly learning cost 
+    volume driven by disparity regression is prone to overfitting since the cost 
+    volume is under constrained. In this paper, we propose to directly add constraints
+    to the cost volume by filtering cost volume with unimodal distribution peaked at
+    true disparities. In addition, variances of the unimodal distributions for each
+    pixel are estimated to explicitly model matching uncertainty under different contexts.
+    The proposed architecture achieves state-of-the-art performance on Scene Flow and two 
+    KITTI stereo benchmarks. In particular, our method ranked the 1 st place of KITTI
+    2012 evaluation and the 4 th place of KITTI 2015 evaluation (recorded on 2019.8. 20).
+    The codes of AcfNet are available at: https://github. com/youmi-zym/AcfNet.
 </code></pre></div></small>
 </div>
 

@@ -31,8 +31,14 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 {% include feature_row %}
 
 ## News and Media
-* Nov 2021: 1 Paper Accepted by AAAI
-* Jun 2021: 1 Paper Accepted by ICPR
-* Nov 2020: 1 Paper Accpeted by AAAI
+
+### 2020
+
+* Nov 2020: 1 Paper Accepted by AAAI
+* Jun 2020: 1 Paper Accepted by ICPR
+
+### 2019
+
+* Nov 2019: 1 Paper Accpeted by AAAI
 
 ---
