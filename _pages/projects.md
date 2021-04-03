@@ -8,9 +8,9 @@ permalink: /other_projects/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/trinity.jpg
+  overlay_image: /assets/images/bologna.jpeg
+  caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
   cta_url: "#featured"
-  caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
 excerpt: "Assortment of other projects<br><br><br>"
 ---
 

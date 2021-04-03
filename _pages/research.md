@@ -8,8 +8,8 @@ permalink: /research/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/kings.jpg
-  caption: "Photo: [Olly McMillan](https://www.youtube.com/watch?v=kQkZeXHfgwA&t=1s)"
+  overlay_image: /assets/images/bologna.jpeg
+  caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
 gallery_uncertainty:
   - image_path: /assets/images/research/input.png
     alt: "Input Image"
