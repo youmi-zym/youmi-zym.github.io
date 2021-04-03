@@ -11,6 +11,5 @@ header:
   overlay_image: /assets/images/bologna.jpeg
   caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
   cta_url: "#featured"
-excerpt: "Assortment of other projects<br><br><br>"
 ---
 
