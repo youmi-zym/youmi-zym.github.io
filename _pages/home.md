@@ -17,6 +17,7 @@ excerpt: "PhD Student in CVLAB at the University of Bologna<br><br>"
 ## Brief Bio
 
 I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en).
+
 I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html), [Poggi Matteo](https://mattpoggi.github.io/), [Fabio Tosi](http://vision.disi.unibo.it/~ftosi/) and [Filippo Aleotti](https://filippoaleotti.github.io/website/).
 
 ### Research Topics
