@@ -23,7 +23,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 > <small>
     <b>Adaptive unimodal cost volume filtering for deep stereo matching</b> <br>
-    <b>Youmin Zhang</b>, Yimin Chen(*Equal Contribution), Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, Kuiyuan Yang. <br>
+    <b>Youmin Zhang</b>, Yimin Chen*, Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, Kuiyuan Yang. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2020.<br>
     [<a style="color:gray;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_acfnet');">Abstract</a>]
     [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/6991/6845" style="color:green">PDF</a>]
