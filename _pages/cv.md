@@ -4,8 +4,8 @@ read_time: false
 comments: true
 share: true
 author_profile: false
-title: <br><br><br><br><br>Selected Talks
-permalink: /talks/
+title: <br><br><br><br><br>CV
+permalink: /cv/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

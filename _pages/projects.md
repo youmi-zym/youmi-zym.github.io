@@ -3,8 +3,8 @@ layout: single
 read_time: false
 comments: false
 share: false
-title: Other Projects
-permalink: /other_projects/
+title: Projects Highlight
+permalink: /projects/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

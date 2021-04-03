@@ -3,8 +3,8 @@ layout: single
 read_time: false
 comments: false
 share: false
-title: Research Highlights
-permalink: /research/
+title: Interesting Tutorials
+permalink: /tutorials/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
