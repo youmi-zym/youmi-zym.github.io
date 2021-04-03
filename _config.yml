@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "youmi47320582"
+  username               : &twitter "youmi42984813"
 facebook:
   username               :
   app_id                 :
@@ -67,7 +67,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/youmi"
+    - "https://twitter.com/youmi42984813"
 
 # Analytics
 analytics:
@@ -106,7 +106,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCOVR2NGeNhm0PrhQ2WMC8Ew"
+  youtube          : "OVR2NGeNhm0PrhQ2WMC8Ew"
 
 
 # Reading Files
