@@ -11,27 +11,7 @@ header:
   overlay_image: /assets/images/bologna.jpeg
   caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
 excerpt: "PhD Student in CVLAB at the University of Bologna<br><br>"
-feature_row:
-  - image_path: /assets/images/uncertainty.jpg
-    alt: "Semantic Segmentation"
-    title: "Blog"
-    excerpt: "Blog about my research."
-    url: "blog"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/poster.jpg
-    alt: "Uncertainty with Bayesian Deep Learning"
-    title: "Research"
-    excerpt: "Deep learning for robotics."
-    url: "research"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/alex_google_talk.png
-    title: "Talks"
-    excerpt: "Presentations and videos."
-    url: "talks"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
+
 ---
 
 ## Brief Bio
