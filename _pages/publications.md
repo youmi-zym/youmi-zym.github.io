@@ -21,6 +21,27 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ## Conference
 
+### 2021
+
+> <small>
+    <b>Adaptive Beam Search Decoding for Discrete Keyphrase Generation</b> <br>
+    Xiaoli Huang, Tongge Xu, Lvan Jiao, Yueran Zu, <b>Youmin Zhang</b>. <br>
+    Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2021.<br>
+    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_adagm');">Abstract</a>]
+    [<a href="https://youmi-zym.github.io/media/papers/2021-AAAI-AdaGM.pdf" style="color:green">PDF</a>]
+    [<a href="https://github.com/huangxiaolist/adaGM" style="color:green">Code</a>]
+    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_AdaGM');">Bibtex</a>]
+
+
+> <small>
+    <b>HMFlow: Hybrid Matching Optical Flow Network for Small and Fast-Moving Objects</b> <br>
+    Suihanjin Yu, <b>Youmin Zhang</b>, Chen Wang, Xiao Bai, Liang Zhang, Edwin R Hancock. <br>
+    Proceedings of 25th International Conference on Pattern Recognition (<b>ICPR</b>), 2021. <br>
+    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_hmflow');">Abstract</a>]
+    [<a href="https://youmi-zym.github.io/media/papers/2021-ICPR-HMFlow.pdf" style="color:green">PDF</a>]
+    [<a href="" style="color:grey">Code</a>]
+    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_AdaGM');">Bibtex</a>]
+
 ### 2020
 
 > <small>
@@ -28,7 +49,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     <b>Youmin Zhang</b>, <a href="https://minwellcym.github.io/" style="color:green"><ins>Yimin Chen*</ins></a>, Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, <a href="https://sites.google.com/site/kuiyuanyang/" style="color:green"><ins>Kuiyuan Yang</ins></a>. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2020.<br>
     [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_acfnet');">Abstract</a>]
-    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/6991/6845" style="color:green">PDF</a>]
+    [<a href="https://youmi-zym.github.io/media/papers/2020-AAAI-AcfNet.pdf" style="color:green">PDF</a>]
     [<a href="https://github.com/DeepMotionAIResearch/DenseMatchingBenchmark" style="color:green">Code</a>]
     [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_acfnet');">Bibtex</a>]
 </small>
