@@ -16,7 +16,7 @@ excerpt: "PhD Student in CVLAB at the University of Bologna<br><br>"
 
 ## Brief Bio
 
-I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en).
+I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020.
 
 I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html), [Poggi Matteo](https://mattpoggi.github.io/), [Fabio Tosi](http://vision.disi.unibo.it/~ftosi/), [Filippo Aleotti](https://filippoaleotti.github.io/website/) and Li Zhang.
 
@@ -34,11 +34,11 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ### 2020
 
-* Nov 2020: 1 Paper Accepted by AAAI
-* Jun 2020: 1 Paper Accepted by ICPR
+* Dec 2020: 1 Paper Accepted by AAAI 2021
+* Jun 2020: 1 Paper Accepted by ICPR 2021
 
 ### 2019
 
-* Nov 2019: 1 Paper Accpeted by AAAI
+* Nov 2019: 1 Paper Accpeted by AAAI 2020
 
 ---
