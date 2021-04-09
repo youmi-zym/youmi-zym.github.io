@@ -10,7 +10,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/bologna.jpeg
   caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
-excerpt: "PhD Student in CVLAB at the University of Bologna<br><br>"
+excerpt: "PhD Student at the University of Bologna<br><br>"
 
 ---
 
