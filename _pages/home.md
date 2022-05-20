@@ -32,6 +32,10 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ## News and Media
 
+### 2022
+
+* Reviewers for: PR, CGI 2022, ITSC 2022
+
 ### 2020
 
 * Dec 2020: 1 Paper Accepted by AAAI 2021
