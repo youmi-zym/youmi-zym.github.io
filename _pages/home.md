@@ -1,7 +1,7 @@
 ---
 layout: single
-read_time: false
-comments: false
+read_time: true
+comments: true
 share: false
 title: <br><br><br><br><br><br>Youmin Zhang
 permalink: /
@@ -24,6 +24,7 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 * Stereo Matching
 * SLAM
 * Optical/Scene Flow
+* Depth Completion
 * Single Image Depth Estimation
 
 <div id='featured'></div>
@@ -34,7 +35,7 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ### 2022
 
-* Reviewers for: PR, CGI 2022, ITSC 2022
+* Reviewers for: Pattern Recognition, CGI 2022
 
 ### 2020
 
