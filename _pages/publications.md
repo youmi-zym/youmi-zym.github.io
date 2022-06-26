@@ -65,7 +65,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     <b>Adaptive unimodal cost volume filtering for deep stereo matching</b> <br>
     <b>Youmin Zhang</b>, <a href="https://minwellcym.github.io/" style="color:green"><ins>Yimin Chen*</ins></a>, Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, <a href="https://sites.google.com/site/kuiyuanyang/" style="color:green"><ins>Kuiyuan Yang</ins></a>. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2020.<br>
-    <img src='/assets/images/acfnet_architecture.png' alt="network" width="98%"> <br>
+    <img src='/assets/images/acfnet_architecture.png' alt="network" width="77%"> <br>
     [<a href="https://arxiv.org/abs/1909.03751v2" style="color:green">Arxiv</a>]
     [<a href="https://youmi-zym.github.io/media/papers/2020-AAAI-AcfNet.pdf" style="color:green">PDF</a>]
     [<a href="https://github.com/DeepMotionAIResearch/DenseMatchingBenchmark" style="color:green">Code</a>]
