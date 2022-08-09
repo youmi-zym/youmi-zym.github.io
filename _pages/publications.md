@@ -21,9 +21,29 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ## Conference
 
-<!--
 ### 2022
 
+> <small>
+    <b>MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer</b> <br>
+    <a href="https://zxcqlf.github.io/" style="color:green"><ins>Chaoqiang Zhao*</ins></a>, <b>Youmin Zhang*</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.disi.unibo.it/~ftosi/" style="color:green"><ins>Fabio Tosi</ins></a>, Xianda Guo, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    International Conference on 3D Vision (<b>3DV</b>), 2022.<br>
+    <img src='/assets/images/monovit_architecture.png' alt="network" width="77%"> <br>
+    [<a href="https://arxiv.org/abs/2208.03543" style="color:green">Arxiv</a>]
+    [<a href="" style="color:gray">PDF</a>]
+    [<a href="https://github.com/zxcqlf/MonoViT" style="color:green">Code</a>]
+    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_monovit');">Bibtex</a>]
+</small>
+<div id="bibtex_monovit" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@inproceedings{monovit,
+  title={MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer},
+  author={Chaoqiang Zhao, Youmin Zhang, Matteo Poggi, Fabio Tosi, Xianda Guo,Zheng Zhu, Guan Huang, Yang Tang, Stefano Mattoccia},
+  booktitle={International Conference on 3D Vision},
+  year={2022}
+}
+</code></pre></div></small>
+</div>
+<!--
 > <small>
     <b>CompletionFormer: Learning Depth Completion with Convolution and Vision Transformer</b> <br>
     <b>Youmin Zhang</b>, Xianda Guo, Matteo Poggi, Zheng Zhu, Guan Huang, Stefano Mattoccia. <br>
