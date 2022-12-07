@@ -24,6 +24,27 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ### 2022
 
 > <small>
+    <b>TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network</b> <br>
+    <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    Arxiv, 2022.<br>
+    <img src='/assets/images/temporalstereo_architecture.png' alt="network" width="77%"> <br>
+    [<a href="https://arxiv.org/abs/2211.13755" style="color:green">Arxiv</a>]
+    [<a href="https://www.youtube.com/watch?v=faSgN2THhEM" style="color:gray">Video</a>]
+    [<a href="https://github.com/youmi-zym/TemporalStereo" style="color:green">Code</a>]
+    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_temporalstereo');">Bibtex</a>]
+</small>
+<div id="bibtex_temporalstereo" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{zhang2022temporalstereo,
+  title={TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network},
+  author={Zhang, Youmin and Poggi, Matteo and Mattoccia, Stefano},
+  journal={arXiv preprint arXiv:2211.13755},
+  year={2022}
+}
+</code></pre></div></small>
+</div>
+
+> <small>
     <b>MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer</b> <br>
     <a href="https://zxcqlf.github.io/" style="color:green"><ins>Chaoqiang Zhao*</ins></a>, <b>Youmin Zhang*</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.disi.unibo.it/~ftosi/" style="color:green"><ins>Fabio Tosi</ins></a>, Xianda Guo, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     International Conference on 3D Vision (<b>3DV</b>), 2022.<br>
