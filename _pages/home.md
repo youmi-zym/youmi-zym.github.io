@@ -43,7 +43,7 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 * Aug 2022: 1 Paper Accepted by 3DV 2022
 
-* Reviewers for: Pattern Recognition, CGI 2022, AAAI 2023
+* Reviewers for: Pattern Recognition, AAAI 2023
 
 ### 2020
 
