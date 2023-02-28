@@ -18,11 +18,11 @@ excerpt: "PhD Student at the University of Bologna<br><br>"
 
 I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020.
 
-I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html), [Poggi Matteo](https://mattpoggi.github.io/), [Fabio Tosi](http://vision.disi.unibo.it/~ftosi/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
+I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html), [Poggi Matteo](https://mattpoggi.github.io/), [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 
 ### Research Topics
-* Stereo Matching
 * SLAM
+* Stereo Matching
 * Optical/Scene Flow
 * Depth Completion
 * Single Image Depth Estimation
@@ -32,6 +32,12 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 {% include feature_row %}
 
 ## News and Media
+
+### 2023
+
+* Feb 2023: 1 Paper Accepted by CVPR 2023
+
+* Reviewers for: CVPR, ICCV 2023
 
 ### 2022
 
