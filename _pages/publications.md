@@ -26,7 +26,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 > <small>
     <b>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b> <br>
     <b>Youmin Zhang</b>, Xianda Guo, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
-    CVPR, 2023.<br>
+    <b>CVPR</b>, 2023.<br>
     <img src='/assets/images/completionformer_architecture.png' alt="network" width="77%"> <br>
     [<a href="" style="color:green">Arxiv</a>]
     [<a href="" style="color:green">Project Page</a>]
@@ -35,7 +35,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </small>
 <div id="bibtex_completionformer" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
-<code>@article{zhang2022completionformer,
+<code>@inproceedings{zhang2023completionformer,
   title={CompletionFormer: Depth Completion with Convolutions and Vision Transformers},
   author={Zhang, Youmin and Guo, Xianda and Poggi, Matteo and Zhu, Zheng and Huang, Guan and Mattoccia, Stefano},
   journal={CVPR},
@@ -44,6 +44,26 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </code></pre></div></small>
 </div>
 
+
+> <small>
+    <b>Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
+    Xin Qiao, Chenyang Ge, <b>Youmin Zhang</b>, Yanhui Zhou, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    Arxiv, 2022.<br>
+    <img src='/assets/images/dsr_ei_architecture.png' alt="network" width="77%"> <br>
+    [<a href="https://arxiv.org/pdf/2303.09307.pdf" style="color:green">Arxiv</a>]
+    [<a href="" style="color:gray">Code</a>]
+    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_dsr_ei');">Bibtex</a>]
+</small>
+<div id="bibtex_dsr_ei" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{qiao2023depth,
+  title={Depth Super-Resolution from Explicit and Implicit High-Frequency Features},
+  author={Qiao, Xin and Ge, Chenyang and Zhang, Youmin and Zhou, Yanhui and Tosi, Fabio and Poggi, Matteo and Mattoccia, Stefano},
+  journal={arXiv preprint arXiv:2303.09307},
+  year={2023}
+}
+</code></pre></div></small>
+</div>
 
 ### 2022
 
@@ -70,7 +90,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 > <small>
     <b>MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer</b> <br>
-    <a href="https://zxcqlf.github.io/" style="color:green"><ins>Chaoqiang Zhao*</ins></a>, <b>Youmin Zhang*</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.disi.unibo.it/~ftosi/" style="color:green"><ins>Fabio Tosi</ins></a>, Xianda Guo, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    <a href="https://zxcqlf.github.io/" style="color:green"><ins>Chaoqiang Zhao*</ins></a>, <b>Youmin Zhang*</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, Xianda Guo, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     International Conference on 3D Vision (<b>3DV</b>), 2022.<br>
     <img src='/assets/images/monovit_architecture.png' alt="network" width="77%"> <br>
     [<a href="https://arxiv.org/abs/2208.03543" style="color:green">Arxiv</a>]
