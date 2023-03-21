@@ -21,6 +21,30 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ## Conference
 
+### 2023
+
+> <small>
+    <b>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b> <br>
+    <b>Youmin Zhang</b>, Xianda Guo, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    CVPR, 2023.<br>
+    <img src='/assets/images/completionformer_architecture.png' alt="network" width="77%"> <br>
+    [<a href="" style="color:green">Arxiv</a>]
+    [<a href="" style="color:green">Project Page</a>]
+    [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
+    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_completionformer');">Bibtex</a>]
+</small>
+<div id="bibtex_completionformer" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{zhang2022completionformer,
+  title={CompletionFormer: Depth Completion with Convolutions and Vision Transformers},
+  author={Zhang, Youmin and Guo, Xianda and Poggi, Matteo and Zhu, Zheng and Huang, Guan and Mattoccia, Stefano},
+  journal={CVPR},
+  year={2023}
+}
+</code></pre></div></small>
+</div>
+
+
 ### 2022
 
 > <small>
@@ -125,23 +149,6 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 }
 </code></pre></div></small>
 </div>
-
-<!--
-[<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_acfnet');">Abstract</a>]
-<div id="abstract_acfnet" >
-<img src='/assets/images/acfnet_architecture.png' alt="network" width="70%">
-</div>
-<div id="abstract_acfnet" style="display:none;">
-<small><div class="highlighter-rouge"><table style="width:100%"><pre class="highlight"><p style="text-align:justify;font-family:courier;">
-    State-of-the-art deep learning based stereo matching approaches treat disparity estimation as a regression problem, where loss function is directly defined on true disparities and their estimated ones. However, disparity is just a byproduct of a matching process modeled by cost volume, while indirectly learning cost volume driven by disparity regression is prone to overfitting since the cost volume is under constrained. In this paper, we propose to directly add constraints to the cost volume by filtering cost volume with unimodal distribution peaked at true disparities. In addition, variances of the unimodal distributions for each pixel are estimated to explicitly model matching uncertainty under different contexts. The proposed architecture achieves state-of-the-art performance on Scene Flow and two KITTI stereo benchmarks. In particular, our method ranked the 1 st place of KITTI 2012 evaluation and the 4 th place of KITTI 2015 evaluation (recorded on 2019.8. 20). The codes of AcfNet are available at: https://github. com/youmi-zym/AcfNet.
-</p></pre></table></div></small>
-<p align="center">
-  <a href="">
-    <img src="./assets/images/acfnet_architecture.png" alt="Logo" width="98%">
-  </a>
-</p>
-</div>
--->
 
 
 <script type="text/javascript">

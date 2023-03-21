@@ -21,6 +21,7 @@ I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from
 I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html), [Poggi Matteo](https://mattpoggi.github.io/), [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 
 ### Research Topics
+
 * SLAM
 * Stereo Matching
 * Optical/Scene Flow
