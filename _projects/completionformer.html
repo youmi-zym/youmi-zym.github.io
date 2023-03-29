@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="CompletionFormer: Depth Completion with Convolutions and Vision Transformers">
+  <meta name="keywords" content="CompletionFormer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--for thumbnail-->
+  <meta property="og:image" content="./assets/CompletionFormer/jcat.webp">
+  <meta property="og:url" content="https://github.com/youmi-zym/CompletionFormer">
+  <meta property="og:description" content="Depth Completion with Convolutions and Vision Transformers">
+  <title>CompletionFormer</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+
+
+
+  </script> -->
+
+<link rel="icon" type="image/webp" href="./assets/CompletionFormer/jcat.webp"> 
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://youmi-zym.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://youmi-zym.github.io/completion_former">
+            CompletionFormer - CVPR 2023
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- <div class="columns is-centered">
+        <div class="column is-7 has-text-centered">
+          <img src="media/nice-slam/nice-slam-logo2.png" alt="NICE-SLAM"/>
+        </div>
+      </div> -->
+        <div class="column has-text-centered">
+          <!-- <h1 class="title is-1 publication-title"><img src="media/nice-slam/like.png" width="90">NICE-SLAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Neural Implicit Scalable Encoding for SLAM</h1> -->
+          <h1 class="title is-1 publication-title">CompletionFormer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+          <h1 class="title is-2 publication-title">Depth Completion with Convolutions and Vision Transformers</h1>
+          <div class="column is-full_width">
+            <h2 class="title is-4">CVPR 2023</h2>
+          </div>
+          <!-- <br> -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://youmi-zym.github.io">Youmin Zhang</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+            <a href="">Xianda Guo</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://mattpoggi.github.io/">Matteo Poggi</a><sup>1</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="http://www.zhengzhu.net/">Zheng Zhu</a><sup>2</sup>
+            </span><br>
+            <span class="author-block">
+            <a href="">Guan Huang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </div>
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Bologna</span>&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>Phigent Robot</span>&nbsp;&nbsp;
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/" target="_blank"
+                   class="button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Supp Link. -->
+              <!-- span class="link-block">
+                <a href="xxx" target="_blank"
+                   class="button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary Material</span>
+                </a>
+              </span -->
+              <!-- Video Link. -->
+              <!-- span class="link-block">
+                <a href="https://youtu.be/jZxCLHyDJf8"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span-->
+              <!-- Code Link. -->
+               <span class="link-block">
+                <a href="https://github.com/youmi-zym/CompletionFormer" target="_blank"
+		   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span >Code</span>
+                  </a>
+              </span> 
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./assets/CompletionFormer/architecture.png" class="center"/>
+      <br><br>
+      <h2 class="subtitle has-text-centered">
+      <strong>CompletionFormer</strong> is a depth completion network based on CNN and Vision Transformer.
+    </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+        <!-- Paper video. -->
+        <!-- div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths"> 
+            <div class="column is-full_width">
+            <h2 class="title is-3">Explanatory Video</h2>
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/jZxCLHyDJf8?rel=0&amp;showinfo=0"
+                      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <video id="dollyzoom" controls loop width="100%">
+                  <source src="media/openscene/OpenScene_video_full_compressed.mp4"
+                          type="video/mp4">
+                </video> 
+            </div>
+          </div>
+        </div -->
+        <!--/ Paper video. -->
+      
+    <br>
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>TL;DR: We present CompletionFormer, a hybrid architecture naturally benefits both the local connectivity of convolutions and the global context of the Transformer in one single model.</b>
+          </p>
+          <p>
+            Given sparse depths and the corresponding RGB images, 
+            depth completion aims at spatially propagating the sparse measurements throughout the whole image to get a dense depth prediction. 
+            Despite the tremendous progress of deep-learning-based depth completion methods, 
+            the locality of the convolutional layer or graph model makes it hard for the network to model the long-range relationship between pixels. 
+            While recent fully Transformer-based architecture has reported encouraging results with the global receptive field, 
+            the performance and efficiency gaps to the well-developed CNN models still exist because of its deteriorative local feature details.  
+            This paper proposes a Joint Convolutional Attention and Transformer block (JCAT), 
+            which deeply couples the convolutional attention layer and Vision Transformer into one block, 
+            as the basic unit to construct our depth completion model in a pyramidal structure. 
+            This hybrid architecture naturally benefits both the local connectivity of convolutions and the global context of the Transformer in one single model. 
+            As a result, our CompletionFormer outperforms state-of-the-art CNNs-based methods on the outdoor KITTI Depth Completion benchmark and indoor NYUv2 dataset, 
+            achieving significantly higher efficiency (nearly 1/3 FLOPs) compared to pure Transformer-based methods. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Key Idea -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <hr>
+        <h2 class="title is-3">Key Idea</h2>
+        <br>
+        <img src="./assets/CompletionFormer/keyidea.png" class="center"/>
+        <div class="content has-text-justified">
+          <br>  
+          <p>
+          <b>Example of architecture with convolutions and Vision Transformer.</b> 
+          (a) Multi-Path Transformer Block of <a href='https://github.com/youngwanLEE/MPViT'>MPViT</a>. 
+          (b) CMT Block of <a href="https://github.com/wilile26811249/CMT_CNN-meet-Vision-Transformer">CMT-S</a>. 
+          (c) Our proposed JCAT block which contains two parallel streams, i.e., convolutional attention and Transformer layer respectively. 
+          (d) The variant of our proposed block with cascaded connection.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+      <!-- Experiment -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Visualization</h2>
+          <br>
+          <img src="./assets/CompletionFormer/kitti_sparse.png" class="center"/>
+          <div class="content has-text-justified">
+            <br>  
+            <p>
+              <b>Qualitative results on KITTI DC selected validation dataset with 4 and 16 LiDAR scanning lines.</b> 
+              We attach the subsampled LiDAR lines to the corresponding RGB image for better visualization. 
+              Ours-ViT denotes that only the Transformer layer is enabled in our proposed block. 
+              A colder color in depth and error maps denotes a lower value.
+            </p>
+          </div>
+          <br>
+          <img src="./assets/CompletionFormer/nyu_3_10.png" class="center"/>
+          <div class="content has-text-justified">
+            <br>  
+            <p>
+              <b>Qualitative results on NYUv2 dataset.</b>  
+              Comparisons of our method against state-of-the-art method, i.e., NLSPN are presented. 
+              We provide RGB images, and dense predictions. 
+              The colder the colors of the error map, the lower the errors. 
+              Ours-ViT denotes that only the Transformer layer is enabled in our proposed block.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+    
+      <!-- Benchmark.-->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Results on KITTI DC and NYUv2</h2>
+          <br>
+          <img src="./assets/CompletionFormer/benchmark.png" class="center"/>
+        </div>
+      </div>
+
+</div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{Zhang2023CompletionFormer,
+      title     = {CompletionFormer: Depth Completion with Convolutions and Vision Transformers},
+      author    = {Zhang, Youmin and Guo, Xianda and Poggi, Matteo and Zhu, Zheng and Huang, Guan and Mattoccia, Stefano},
+      booktitle = {CVPR},
+      year      = {2023}
+  }</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Acknowledgements">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    We sincerely thank the scholarship supported by China Scholarship Council (CSC). 
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

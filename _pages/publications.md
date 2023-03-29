@@ -25,8 +25,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 
 <small>
-    <a href="https://github.com/youmi-zym/CompletionFormer">
-    <papertitle>[C5] CompletionFormer: Depth Completion with Convolutions and Vision Transformers</papertitle></a>
+    <b>[C5] CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b>
     <br>
     <b>Youmin Zhang</b>, 
     Xianda Guo, 
@@ -44,10 +43,10 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </small>
 <div id="bibtex_completionformer" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
-<code>@inproceedings{zhang2023completionformer,
+<code>@inproceedings{Zhang2023CompletionFormer,
   title={CompletionFormer: Depth Completion with Convolutions and Vision Transformers},
   author={Zhang, Youmin and Guo, Xianda and Poggi, Matteo and Zhu, Zheng and Huang, Guan and Mattoccia, Stefano},
-  journal={CVPR},
+  booktitle={CVPR},
   year={2023}
 }
 </code></pre></div></small>
