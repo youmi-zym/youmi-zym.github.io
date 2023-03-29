@@ -25,9 +25,17 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 
 <small>
-    <b>[C5] CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b> <br>
-    <b>Youmin Zhang</b>, Xianda Guo, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
-    <b>CVPR</b>, 2023.<br>
+    <a href="https://github.com/youmi-zym/CompletionFormer">
+    <papertitle>[C5] CompletionFormer: Depth Completion with Convolutions and Vision Transformers</papertitle></a>
+    <br>
+    <b>Youmin Zhang</b>, 
+    Xianda Guo, 
+    <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, 
+    <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, 
+    Guan Huang, 
+    <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. 
+    <br>
+    Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2023.<br>
     <img src='/assets/images/completionformer_architecture.png' alt="network" width="77%"> <br>
     [<a href="" style="color:green">Arxiv</a>]
     [<a href="" style="color:green">Project Page</a>]
@@ -116,22 +124,17 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     <b>[C3] Adaptive Beam Search Decoding for Discrete Keyphrase Generation</b> <br>
     Xiaoli Huang, Tongge Xu, Lvan Jiao, Yueran Zu, <b>Youmin Zhang</b>. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2021.<br>
-    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_adagm');">Abstract</a>]
     [<a href="https://www.aaai.org/AAAI21Papers/AAAI-8780.HuangXL.pdf" style="color:green">Arxiv</a>]
     [<a href="https://youmi-zym.github.io/media/papers/2021-AAAI-AdaGM.pdf" style="color:green">PDF</a>]
     [<a href="https://github.com/huangxiaolist/adaGM" style="color:green">Code</a>]
-    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_AdaGM');">Bibtex</a>]
 
 
 <small>
     <b>[C2] HMFlow: Hybrid Matching Optical Flow Network for Small and Fast-Moving Objects</b> <br>
     Suihanjin Yu, <b>Youmin Zhang</b>, Chen Wang, Xiao Bai, Liang Zhang, Edwin R Hancock. <br>
     Proceedings of 25th International Conference on Pattern Recognition (<b>ICPR</b>), 2021. <br>
-    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_hmflow');">Abstract</a>]
     [<a href="https://arxiv.org/abs/2011.09654" style="color:green">Arxiv</a>]
     [<a href="https://youmi-zym.github.io/media/papers/2021-ICPR-HMFlow.pdf" style="color:green">PDF</a>]
-    [<a href="" style="color:grey">Code</a>]
-    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_AdaGM');">Bibtex</a>]
 
 ### 2020
 
