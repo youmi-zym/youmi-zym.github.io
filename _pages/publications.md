@@ -23,6 +23,48 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ### 2023
 
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
+    <tr onmouseout="cf_stop()" onmouseover="cf_start()">
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'cf_shape'>
+        <img src='/assets/images/completionformer_architecture.png' width="160" height="120"></div>
+        <img src='/assets/images/completionformer_architecture.png' width="160" height="120"></div>
+        </div>
+        <script type="text/javascript">
+        function dpcon_start() {
+        document.getElementById('cf_shape').style.opacity = "1";
+        }
+        function dpcon_stop() {
+        document.getElementById('cf_shape').style.opacity = "0";
+        }
+        cf_stop()
+        </script>
+        </script>
+      </td>
+      <td valign="top" width="75%">
+      		<a href="https://github.com/youmi-zym/CompletionFormer">
+            <papertitle>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</papertitle></a>
+      <br>
+          <strong>Youmin Zhang</strong>, 
+          Xianda Guo, 
+          <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, 
+          <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, 
+          Guan Huang, 
+          <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. 
+      <br>
+          <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2023
+      <br>
+        [<a href="" style="color:green">Arxiv</a>]
+        [<a href="" style="color:green">Project Page</a>]
+        [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
+        [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_completionformer');">Bibtex</a>]
+        <p></p>
+        Depth Completion with Convolutions and Visioin Transformers. Cooperated with Phigent Robot.
+        <p></p>
+      </td>
+    </tr>
+
 > <small>
     <b>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b> <br>
     <b>Youmin Zhang</b>, Xianda Guo, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
@@ -48,7 +90,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 > <small>
     <b>Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
     Xin Qiao, Chenyang Ge, <b>Youmin Zhang</b>, Yanhui Zhou, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
-    Arxiv, 2022.<br>
+    Arxiv, 2023.<br>
     <img src='/assets/images/dsr_ei_architecture.png' alt="network" width="77%"> <br>
     [<a href="https://arxiv.org/pdf/2303.09307.pdf" style="color:green">Arxiv</a>]
     [<a href="" style="color:gray">Code</a>]
@@ -108,18 +150,6 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 }
 </code></pre></div></small>
 </div>
-<!--
-> <small>
-    <b>CompletionFormer: Learning Depth Completion with Convolution and Vision Transformer</b> <br>
-    <b>Youmin Zhang</b>, Xianda Guo, Matteo Poggi, Zheng Zhu, Guan Huang, Stefano Mattoccia. <br>
-    Arxiv (<b>Arxiv</b>), 2021.<br>
-    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('abstract_adagm');">Abstract</a>]
-    [<a href="" style="color:green">Arxiv</a>]
-    [<a href="https://youmi-zym.github.io/media/papers/2022-Arxiv-CompletionFormer.pdf" style="color:green">PDF</a>]
-    [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
-    [<a style="color:grey;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_AdaGM');">Bibtex</a>]
-
--->
 
 ### 2021
 
