@@ -40,7 +40,6 @@ For a complete list of publications, please refer to <a href="https://scholar.go
         }
         cf_stop()
         </script>
-        </script>
       </td>
       <td valign="top" width="75%">
       		<a href="https://github.com/youmi-zym/CompletionFormer">
