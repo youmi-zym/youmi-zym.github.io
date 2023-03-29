@@ -28,8 +28,9 @@ For a complete list of publications, please refer to <a href="https://scholar.go
       <td width="25%">
         <div class="one">
         <div class="two" id = 'cf_shape'>
-        <img src='/assets/images/completionformer_architecture.png' width="160" height="120"></div>
-        <img src='/assets/images/completionformer_architecture.png' width="160" height="120"></div>
+        <img src='/assets/images/completionformer_architecture.png' width="160" height="120">
+        <img src='/assets/images/completionformer_architecture.png' width="160" height="120">
+        </div>
         </div>
         <script type="text/javascript">
         function dpcon_start() {
