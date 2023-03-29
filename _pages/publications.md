@@ -64,6 +64,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
         <p></p>
       </td>
     </tr>
+</table>
 
 > <small>
     <b>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b> <br>
