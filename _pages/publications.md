@@ -23,50 +23,50 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ### 2023
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
-    <tr onmouseout="cf_stop()" onmouseover="cf_start()">
-      <td width="25%">
-        <div class="one">
-        <div class="two" id = 'cf_shape'>
-        <img src='/assets/images/completionformer_architecture.png' width="160" height="120">
-        <img src='/assets/images/completionformer_architecture.png' width="160" height="120">
-        </div>
-        </div>
-        <script type="text/javascript">
-        function dpcon_start() {
-        document.getElementById('cf_shape').style.opacity = "1";
-        }
-        function dpcon_stop() {
-        document.getElementById('cf_shape').style.opacity = "0";
-        }
-        cf_stop()
-        </script>
-      </td>
-      <td valign="top" width="75%">
-      		<a href="https://github.com/youmi-zym/CompletionFormer">
-            <papertitle>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</papertitle></a>
-      <br>
-          <strong>Youmin Zhang</strong>, 
-          Xianda Guo, 
-          <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, 
-          <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, 
-          Guan Huang, 
-          <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. 
-      <br>
-          <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2023
-      <br>
-        [<a href="" style="color:green">Arxiv</a>]
-        [<a href="" style="color:green">Project Page</a>]
-        [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
-        [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_completionformer');">Bibtex</a>]
-        <p></p>
-        Depth Completion with Convolutions and Visioin Transformers. Cooperated with Phigent Robot.
-        <p></p>
-      </td>
-    </tr>
-</table>
+# <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
+#     <tr onmouseout="cf_stop()" onmouseover="cf_start()">
+#       <td width="25%">
+#         <div class="one">
+#         <div class="two" id = 'cf_shape'>
+#         <img src='/assets/images/completionformer_architecture.png' width="160" height="120">
+#         <img src='/assets/images/completionformer_architecture.png' width="160" height="120">
+#         </div>
+#         </div>
+#         <script type="text/javascript">
+#         function dpcon_start() {
+#         document.getElementById('cf_shape').style.opacity = "1";
+#         }
+#         function dpcon_stop() {
+#         document.getElementById('cf_shape').style.opacity = "0";
+#         }
+#         cf_stop()
+#         </script>
+#       </td>
+#       <td valign="top" width="75%">
+#       		<a href="https://github.com/youmi-zym/CompletionFormer">
+#             <papertitle>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</papertitle></a>
+#       <br>
+#           <strong>Youmin Zhang</strong>, 
+#           Xianda Guo, 
+#           <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, 
+#           <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, 
+#           Guan Huang, 
+#           <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. 
+#       <br>
+#           <em>Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2023
+#       <br>
+#         [<a href="" style="color:green">Arxiv</a>]
+#         [<a href="" style="color:green">Project Page</a>]
+#         [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
+#         [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_completionformer');">Bibtex</a>]
+#         <p></p>
+#         Depth Completion with Convolutions and Visioin Transformers. Cooperated with Phigent Robot.
+#         <p></p>
+#       </td>
+#     </tr>
+# </table>
 
-> <small>
+<small>
     <b>CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b> <br>
     <b>Youmin Zhang</b>, Xianda Guo, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     <b>CVPR</b>, 2023.<br>
@@ -88,7 +88,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </div>
 
 
-> <small>
+<small>
     <b>Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
     Xin Qiao, Chenyang Ge, <b>Youmin Zhang</b>, Yanhui Zhou, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     Arxiv, 2023.<br>
@@ -110,7 +110,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ### 2022
 
-> <small>
+<small>
     <b>TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network</b> <br>
     <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     Arxiv, 2022.<br>
@@ -131,7 +131,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </code></pre></div></small>
 </div>
 
-> <small>
+<small>
     <b>MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer</b> <br>
     <a href="https://zxcqlf.github.io/" style="color:green"><ins>Chaoqiang Zhao*</ins></a>, <b>Youmin Zhang*</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, Xianda Guo, <a href="http://www.zhengzhu.net/" style="color:green"><ins>Zheng Zhu</ins></a>, Guan Huang, Yang Tang, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     International Conference on 3D Vision (<b>3DV</b>), 2022.<br>
@@ -154,7 +154,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ### 2021
 
-> <small>
+<small>
     <b>Adaptive Beam Search Decoding for Discrete Keyphrase Generation</b> <br>
     Xiaoli Huang, Tongge Xu, Lvan Jiao, Yueran Zu, <b>Youmin Zhang</b>. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2021.<br>
@@ -177,7 +177,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ### 2020
 
-> <small>
+<small>
     <b>Adaptive unimodal cost volume filtering for deep stereo matching</b> <br>
     <b>Youmin Zhang</b>, <a href="https://minwellcym.github.io/" style="color:green"><ins>Yimin Chen*</ins></a>, Xiao Bai, Suihanjin Yu, Kun Yu, Zhiwei Li, <a href="https://sites.google.com/site/kuiyuanyang/" style="color:green"><ins>Kuiyuan Yang</ins></a>. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2020.<br>
