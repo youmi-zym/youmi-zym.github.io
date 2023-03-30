@@ -20,7 +20,7 @@ header:
 
 <p>projects including:</p>
 
-<p><a href="https://youmi-zym.github.io/projects/completionformer/">CompletionFormer</a></p>
+<p><a href="https://youmi-zym.github.io/projects/CompletionFormer/">CompletionFormer</a></p>
 
 </body>
 </html>
