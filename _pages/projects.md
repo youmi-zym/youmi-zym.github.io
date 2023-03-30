@@ -12,4 +12,15 @@ header:
   caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
   cta_url: "#featured"
 ---
-{% include /_projects/completionformer.html %}
+
+<html>
+<body>
+
+<h2>All projects are listed here</h2>
+
+<p>projects including:</p>
+
+<p><a href="/_projects/completionformer.html">CompletionFormer</a></p>
+
+</body>
+</html>
