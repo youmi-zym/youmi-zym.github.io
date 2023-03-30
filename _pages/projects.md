@@ -18,9 +18,11 @@ header:
 
 <h2>All projects are listed here</h2>
 
-<p>projects including:</p>
-
-<p><a href="https://youmi-zym.github.io/projects/CompletionFormer/">CompletionFormer</a></p>
+<a href="https://youmi-zym.github.io/projects/CompletionFormer">
+<papertitle>
+    2023-CVPR-CompletionFormer: Depth Completion with Convolutions and Vision Transformers
+</papertitle>
+</a>
 
 </body>
 </html>

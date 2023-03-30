@@ -37,7 +37,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2023.<br>
     <img src='/assets/images/completionformer_architecture.png' alt="network" width="77%"> <br>
     [<a href="" style="color:green">Arxiv</a>]
-    [<a href="" style="color:green">Project Page</a>]
+    [<a href="https://youmi-zym.github.io/projects/CompletionFormer/" style="color:green">Project Page</a>]
     [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
     [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_completionformer');">Bibtex</a>]
 </small>
