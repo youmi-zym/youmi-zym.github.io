@@ -4,5 +4,8 @@ main:
     url: /publications/
   - title: "Projects"
     url: /projects/
+    children:
+      - title "CompletionFormer"
+        url: /projects/completionformer/ 
   - title: "CV"
     url: /cv/

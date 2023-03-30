@@ -20,7 +20,7 @@ header:
 
 <p>projects including:</p>
 
-<p><a href="./_projects/completionformer.html">CompletionFormer</a></p>
+<p><a href="/_projects/completionformer.html">CompletionFormer</a></p>
 
 </body>
 </html>
