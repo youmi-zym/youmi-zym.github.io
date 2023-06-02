@@ -39,6 +39,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     [<a href="" style="color:green">Arxiv</a>]
     [<a href="https://youmi-zym.github.io/projects/CompletionFormer/" style="color:green">Project Page</a>]
     [<a href="https://github.com/youmi-zym/CompletionFormer" style="color:green">Code</a>]
+    [<a href="https://www.youtube.com/watch?v=SLKAwrY2qjg&t=111s" style="color:green">Video</a>]
     [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_completionformer');">Bibtex</a>]
 </small>
 <div id="bibtex_completionformer" style="display:none;">

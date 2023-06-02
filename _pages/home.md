@@ -36,6 +36,8 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ### 2023
 
+* Visiting PhD student in the research group of [Computer Vision and Geometry Group (CVG)](http://www.cvg.ethz.ch/index.php) of Professor [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/) at ETH Zurich.
+
 * Feb 2023: 1 Paper Accepted by CVPR 2023
 
 * Reviewers for: CVPR, ICCV 2023
