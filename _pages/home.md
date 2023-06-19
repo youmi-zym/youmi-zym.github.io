@@ -16,14 +16,14 @@ excerpt: "PhD Student at the University of Bologna<br><br>"
 
 ## Brief Bio
 
-I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020.
+I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020. I'm co-supervised by [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/)
 
-I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html), [Poggi Matteo](https://mattpoggi.github.io/), [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
+I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 
 ### Research Topics
 
 * SLAM (Especially deep-learning based and NeRF based)
-* Depth Estimation incluing: Stereo Matching, Depth Completion, (Supervised/Unsupervised) Monocular Depth Estimation
+* Depth estimation incluing: Stereo Matching, Depth Completion, (Supervised/Unsupervised) Monocular Depth Estimation
 * Optical/Scene Flow
 
 <div id='featured'></div>
@@ -34,7 +34,7 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ### 2023
 
-* Visiting PhD student in the research group of [Computer Vision and Geometry Group (CVG)](http://www.cvg.ethz.ch/index.php) of Professor [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/) at ETH Zurich.
+* Visiting PhD student in the research group of [Computer Vision and Geometry Group (CVG)](http://www.cvg.ethz.ch/index.php) of Professor [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/) at ETH Zurich. Advised by [Dr.Songyou Peng](https://pengsongyou.github.io/) and [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/).
 
 * Feb 2023: 1 Paper Accepted by CVPR 2023
 
@@ -53,6 +53,6 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ## Reviewers for
 
-CVPR 2023, ICCV 2023, Pattern Recognition, AAAI 2023
+CVPR 2023, ICCV 2023, AAAI 2023, Pattern Recognition
 
 ---
