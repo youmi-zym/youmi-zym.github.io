@@ -22,11 +22,9 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 ### Research Topics
 
-* SLAM
-* Stereo Matching
+* SLAM (Especially deep-learning based and NeRF based)
+* Depth Estimation incluing: Stereo Matching, Depth Completion, (Supervised/Unsupervised) Monocular Depth Estimation
 * Optical/Scene Flow
-* Depth Completion
-* Single Image Depth Estimation
 
 <div id='featured'></div>
 
@@ -40,13 +38,9 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 
 * Feb 2023: 1 Paper Accepted by CVPR 2023
 
-* Reviewers for: CVPR, ICCV 2023
-
 ### 2022
 
 * Aug 2022: 1 Paper Accepted by 3DV 2022
-
-* Reviewers for: Pattern Recognition, AAAI 2023
 
 ### 2020
 
@@ -56,5 +50,9 @@ I work with [Prof. Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Ho
 ### 2019
 
 * Nov 2019: 1 Paper Accpeted by AAAI 2020
+
+## Reviewers for
+
+CVPR 2023, ICCV 2023, Pattern Recognition, AAAI 2023
 
 ---
