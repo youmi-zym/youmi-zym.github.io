@@ -16,7 +16,7 @@ excerpt: "PhD Student at the University of Bologna<br><br>"
 
 ## Brief Bio
 
-I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020. I'm co-supervised by [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/)
+I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020. I'm co-supervised by [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/).
 
 I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 

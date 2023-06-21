@@ -26,7 +26,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 <small>
     <b>[C6] TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network</b> <br>
     <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
-    The 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2023.<br>
+    The IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2023.<br>
     <img src='/assets/images/temporalstereo_architecture.png' alt="network" width="77%"> <br>
     [<a href="https://arxiv.org/abs/2211.13755" style="color:green">Arxiv</a>]
     [<a href="https://www.youtube.com/watch?v=faSgN2THhEM" style="color:green">Video</a>]
