@@ -23,6 +23,26 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 ### 2023
 
+<small>
+    <b>[C6] TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network</b> <br>
+    <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    IROS, 2023.<br>
+    <img src='/assets/images/temporalstereo_architecture.png' alt="network" width="77%"> <br>
+    [<a href="https://arxiv.org/abs/2211.13755" style="color:green">Arxiv</a>]
+    [<a href="https://www.youtube.com/watch?v=faSgN2THhEM" style="color:green">Video</a>]
+    [<a href="https://github.com/youmi-zym/TemporalStereo" style="color:green">Code</a>]
+    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_temporalstereo');">Bibtex</a>]
+</small>
+<div id="bibtex_temporalstereo" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@article{zhang2022temporalstereo,
+  title={TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network},
+  author={Zhang, Youmin and Poggi, Matteo and Mattoccia, Stefano},
+  journal={arXiv preprint arXiv:2211.13755},
+  year={2022}
+}
+</code></pre></div></small>
+</div>
 
 <small>
     <b>[C5] CompletionFormer: Depth Completion with Convolutions and Vision Transformers</b>
@@ -55,7 +75,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 
 
 <small>
-    <b>[A2] Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
+    <b>[A1] Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
     Xin Qiao, Chenyang Ge, <b>Youmin Zhang</b>, Yanhui Zhou, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     Arxiv, 2023.<br>
     <img src='/assets/images/dsr_ei_architecture.png' alt="network" width="77%"> <br>
@@ -75,27 +95,6 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </div>
 
 ### 2022
-
-<small>
-    <b>[A1] TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network</b> <br>
-    <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
-    Arxiv, 2022.<br>
-    <img src='/assets/images/temporalstereo_architecture.png' alt="network" width="77%"> <br>
-    [<a href="https://arxiv.org/abs/2211.13755" style="color:green">Arxiv</a>]
-    [<a href="https://www.youtube.com/watch?v=faSgN2THhEM" style="color:green">Video</a>]
-    [<a href="https://github.com/youmi-zym/TemporalStereo" style="color:green">Code</a>]
-    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_temporalstereo');">Bibtex</a>]
-</small>
-<div id="bibtex_temporalstereo" style="display:none;">
-<small><div class="highlighter-rouge"><pre class="highlight">
-<code>@article{zhang2022temporalstereo,
-  title={TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network},
-  author={Zhang, Youmin and Poggi, Matteo and Mattoccia, Stefano},
-  journal={arXiv preprint arXiv:2211.13755},
-  year={2022}
-}
-</code></pre></div></small>
-</div>
 
 <small>
     <b>[C4] MonoViT: Self-Supervised Monocular Depth Estimation with a Vision Transformer</b> <br>
