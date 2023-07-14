@@ -123,8 +123,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     <b>[C3] Adaptive Beam Search Decoding for Discrete Keyphrase Generation</b> <br>
     Xiaoli Huang, Tongge Xu, Lvan Jiao, Yueran Zu, <b>Youmin Zhang</b>. <br>
     Proceedings of the AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2021.<br>
-    [<a href="https://www.aaai.org/AAAI21Papers/AAAI-8780.HuangXL.pdf" style="color:green">Arxiv</a>]
-    [<a href="https://youmi-zym.github.io/media/papers/2021-AAAI-AdaGM.pdf" style="color:green">PDF</a>]
+    [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17546/17353" style="color:green">PDF</a>]
     [<a href="https://github.com/huangxiaolist/adaGM" style="color:green">Code</a>]
 
 
