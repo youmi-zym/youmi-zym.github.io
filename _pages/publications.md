@@ -30,6 +30,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     <img src='/assets/images/goslam_architecture.png' alt="network" width="77%"> <br>
     [<a href="" style="color:green">Arxiv</a>]
     [<a href="" style="color:green">Video</a>]
+    [<a href="https://youmi-zym.github.io/projects/GO-SLAM/" style="color:green">Project Page</a>]
     [<a href="https://github.com/youmi-zym/GO-SLAM" style="color:green">Code</a>]
     [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_goslam');">Bibtex</a>]
 </small>
