@@ -24,5 +24,11 @@ header:
 </papertitle>
 </a>
 
+<a href="https://youmi-zym.github.io/projects/GO-SLAM">
+<papertitle>
+    2023-ICCV-GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction
+</papertitle>
+</a>
+
 </body>
 </html>

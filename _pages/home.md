@@ -34,7 +34,7 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ### 2023
 
-* July 2023: 1 Paper Accepted by **ICCV** 2023: GOSLAM.
+* July 2023: 1 Paper Accepted by **ICCV** 2023: GO-SLAM.
 
 * June 2023: 1 Paper Accepted by **IROS** 2023: TemporalStereo.
 

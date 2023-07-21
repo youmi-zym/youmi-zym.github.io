@@ -24,6 +24,28 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ### 2023
 
 <small>
+    <b>[C7] GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction</b> <br>
+    <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
+    International Conference on Computer Vision (<b>ICCV</b>), 2023.<br>
+    <img src='/assets/images/goslam_architecture.png' alt="network" width="77%"> <br>
+    [<a href="" style="color:green">Arxiv</a>]
+    [<a href="" style="color:green">Video</a>]
+    [<a href="https://github.com/youmi-zym/GO-SLAM" style="color:green">Code</a>]
+    [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_goslam');">Bibtex</a>]
+</small>
+<div id="bibtex_goslam" style="display:none;">
+<small><div class="highlighter-rouge"><pre class="highlight">
+<code>@proceedings{zhang2022goslam,
+  title={GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction},
+  author={Zhang, Youmin and Poggi, Matteo and Tosi, Fabio and Mattoccia, Stefano},
+  booktitle={ICCV},
+  year={2023}
+}
+</code></pre></div></small>
+</div>
+
+
+<small>
     <b>[C6] TemporalStereo: Efficient Spatial-Temporal Stereo Matching Network</b> <br>
     <b>Youmin Zhang</b>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
     The IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2023.<br>
@@ -64,13 +86,13 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </small>
 <div id="bibtex_completionformer" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
-<code>@inproceedings{Zhang2023CompletionFormer,
-  title={CompletionFormer: Depth Completion with Convolutions and Vision Transformers},
+<code>@inproceedings{zhang2023completionformer,
+  title={Completionformer: Depth completion with convolutions and vision transformers},
   author={Zhang, Youmin and Guo, Xianda and Poggi, Matteo and Zhu, Zheng and Huang, Guan and Mattoccia, Stefano},
-  booktitle={CVPR},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={18527--18536},
   year={2023}
-}
-</code></pre></div></small>
+}</code></pre></div></small>
 </div>
 
 

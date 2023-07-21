@@ -1,0 +1,346 @@
+---
+layout: simple
+read_time: false
+comments: false
+share: false
+title: CompletionFormer
+permalink: /projects/GO-SLAM/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction">
+  <meta name="keywords" content="GO-SLAM">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--for thumbnail-->
+  <meta property="og:image" content="/_projects/assets/GO-SLAM/go.jpg">
+  <meta property="og:url" content="https://youmi-zym.github.io/projects/GO-SLAM">
+  <meta property="og:description" content="A deep-learning-based dense visual SLAM framework globally optimizing poses and 3D reconstruction in real-time.">
+  <title>GO-SLAM</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+
+
+
+  </script> -->
+
+<link rel="icon" type="image/webp" href="/_projects/assets/GO-SLAM/go.jpg"> 
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="/_projects/css/bulma.min.css">
+  <link rel="stylesheet" href="/_projects/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="/_projects/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="/_projects/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="/_projects/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="/_projects/js/fontawesome.all.min.js"></script>
+  <script src="/_projects/js/bulma-carousel.min.js"></script>
+  <script src="/_projects/js/bulma-slider.min.js"></script>
+  <script src="/_projects/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://youmi-zym.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://youmi-zym.github.io/">
+            Home
+          </a>
+          <a class="navbar-item" href="https://youmi-zym.github.io/projects/CompletionFormer">
+            CompletionFormer - CVPR 2023
+          </a>
+          <a class="navbar-item" href="https://youmi-zym.github.io/projects/TemporalStereo">
+            TemporalStereo - IROS 2023
+          </a>
+          <a class="navbar-item" href="https://youmi-zym.github.io/projects/GO-SLAM">
+            GO-SLAM - ICCV 2023
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- <div class="columns is-centered">
+        <div class="column is-7 has-text-centered">
+          <img src="media/nice-slam/nice-slam-logo2.png" alt="NICE-SLAM"/>
+        </div>
+      </div> -->
+        <div class="column has-text-centered">
+          <!-- <h1 class="title is-1 publication-title"><img src="media/nice-slam/like.png" width="90">NICE-SLAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Neural Implicit Scalable Encoding for SLAM</h1> -->
+          <h1 class="title is-1 publication-title">GO-SLAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+          <h1 class="title is-2 publication-title">Global Optimization for Consistent 3D Instant Reconstruction</h1>
+          <div class="column is-full_width">
+            <h2 class="title is-4">ICCV 2023</h2>
+          </div>
+          <!-- <br> -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://youmi-zym.github.io">Youmin Zhang</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://mattpoggi.github.io/">Matteo Poggi</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://fabiotosi92.github.io/">Fabio Tosi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span><br>
+            <span class="author-block">
+              <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+          </div>
+          <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">University of Bologna</span>&nbsp;&nbsp;
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="" target="_blank"
+                   class="button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Supp Link. -->
+              <!-- span class="link-block">
+                <a href="xxx" target="_blank"
+                   class="button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary Material</span>
+                </a>
+              </span -->
+              <!-- Video Link. -->
+              <!-- span class="link-block">
+                <a href="https://www.youtube.com/watch?v=SLKAwrY2qjg&t=111s"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span-->
+              <!-- Code Link. -->
+               <span class="link-block">
+                <a href="https://github.com/youmi-zym/GO-SLAM" target="_blank"
+		   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span >Code</span>
+                  </a>
+              </span> 
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="/_projects/assets/GO-SLAM/architecture.png" class="center"/>
+      <br><br>
+      <h2 class="subtitle has-text-centered">
+      <strong>GO-SLAM</strong> is a deep-learning-based dense visual SLAM framework globally optimizing poses and 3D reconstruction in real-time.
+    </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+        <!-- Paper video. -->
+        <!-- div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths"> 
+            <div class="column is-full_width">
+            <h2 class="title is-3">Explanatory Video</h2>
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/jZxCLHyDJf8?rel=0&amp;showinfo=0"
+                      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <video id="dollyzoom" controls loop width="100%">
+                  <source src="media/openscene/OpenScene_video_full_compressed.mp4"
+                          type="video/mp4">
+                </video> 
+            </div>
+          </div>
+        </div -->
+        <!--/ Paper video. -->
+      
+    <br>
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>TL;DR:We present GO-SLAM, a deep-learning-based dense visual SLAM framework globally optimizing poses and 3D reconstruction in real-time. </b>
+          </p>
+          <p>
+            Neural implicit representations have recently demonstrated compelling results on dense Simultaneous Localization And Mapping (SLAM) 
+            but suffer from the accumulation of errors in camera tracking and distortion in the reconstruction. Purposely, we present GO-SLAM, 
+            a deep-learning-based dense visual SLAM framework globally optimizing poses and 3D reconstruction in real-time. Robust pose estimation 
+            is at its core, supported by efficient loop closing and online full bundle adjustment, which optimize per frame by utilizing the learned 
+            global geometry of the complete history of input frames. Simultaneously, we update the implicit and continuous surface representation 
+            on-the-fly to ensure global consistency of 3D reconstruction. Results on various synthetic and real-world datasets demonstrate that GO-SLAM 
+            outperforms state-of-the-art approaches at tracking robustness and reconstruction accuracy. Furthermore, GO-SLAM is versatile and can run with 
+            monocular, stereo, and RGB-D input.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Key Idea -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <hr>
+        <h2 class="title is-3">Architecture Overview</h2>
+        <br>
+        <img src="/_projects/assets/GO-SLAM/overview.png" class="center"/>
+        <div class="content has-text-justified">
+          <br>  
+          <p>
+          <b>Architecture Overview.</b> 
+          Our GO-SLAM framework consists of three parallel threads: front-end tracking (including keyframe initialization and loop closing), 
+          back-end tracking, and instant mapping. The front-end tracking thread uses the video stream as input and iteratively updates the 
+          pose and depth of the current frame while determining whether it should be promoted as a new keyframe. Moreover, it also actively 
+          performs efficient loop closing. The back-end tracking thread focuses on generating globally consistent pose and depth predictions 
+          through full bundle adjustment. Simultaneously, instant mapping updates the 3D reconstruction on-the-fly according to the latest geometry changes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+      <!-- Experiment -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Effect on Loop Closing and Full BA</h2>
+          <br>
+          <img src="/_projects/assets/GO-SLAM/loopclosing.png" class="center"/>
+          <div class="content has-text-justified">
+            <br>  
+            <p>
+              <b>Qualitatives examples of LC and full BA on scene0054-00 of ScanNet with a total of 6629 frames.</b> 
+              In (a), a significant error accumulates when no global optimization is available. With loop closing (b), 
+              the system is able to eliminate the trajectory error using global geometry. Additionally, online full BA 
+              optimizes (c) the poses of all existing keyframes. The final model (d), which integrates both loop closing 
+              and full BA, achieves a more complete and accurate 3D model prediction.
+            </p>
+          </div>
+          <br>
+        </div>
+      </div>
+  
+    
+      <!-- Benchmark.-->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h2 class="title is-3">Results on Various Datasets</h2>
+          <br>
+          <img src="/_projects/assets/GO-SLAM/various_datasets.png" class="center"/>
+        </div>
+      </div>
+
+</div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@proceedings{zhang2022goslam,
+    title={GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction},
+    author={Zhang, Youmin and Poggi, Matteo and Tosi, Fabio and Mattoccia, Stefano},
+    booktitle={ICCV},
+    year={2023}
+  }</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Acknowledgements">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    We sincerely thank the scholarship supported by China Scholarship Council (CSC). 
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
