@@ -190,11 +190,7 @@ permalink: /projects/GO-SLAM/
       <br><br>
       <h2 class="subtitle has-text-centered">
       <strong>Architecture Overview.</strong> 
-        GO-SLAM framework consists of three parallel threads: front-end tracking (including keyframe initialization and loop closing), 
-        back-end tracking, and instant mapping. The front-end tracking thread uses the video stream as input and iteratively updates the 
-        pose and depth of the current frame while determining whether it should be promoted as a new keyframe. Moreover, it also actively 
-        performs efficient loop closing. The back-end tracking thread focuses on generating globally consistent pose and depth predictions 
-        through full bundle adjustment. Simultaneously, instant mapping updates the 3D reconstruction on-the-fly according to the latest geometry changes.
+        GO-SLAM framework consists of three parallel threads: front-end tracking, back-end tracking, and instant mapping. 
     </h2>
     </div>
   </div>
@@ -222,7 +218,7 @@ permalink: /projects/GO-SLAM/
     <br>
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-five-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -255,8 +251,8 @@ permalink: /projects/GO-SLAM/
 
       <!-- Experiment -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Effect on Loop Closing and Full BA</h2>
+        <div class="column is-five-fifths">
+          <h2 class="title is-4">Effect on Loop Closing and Full BA</h2>
           <br>
           <img src="/_projects/assets/GO-SLAM/loopclosing.png" class="center"/>
           <div class="content has-text-justified">
