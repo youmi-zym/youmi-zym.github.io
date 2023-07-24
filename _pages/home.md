@@ -36,7 +36,7 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 * July 2023: 1 Paper Accepted by **ICCV** 2023: [GO-SLAM](https://youmi-zym.github.io/projects/GO-SLAM/).
 
-* June 2023: 1 Paper Accepted by **IROS** 2023: TemporalStereo.
+* June 2023: 1 Paper Accepted by **IROS** 2023: [TemporalStereo](https://youmi-zym.github.io/projects/TemporalStereo/).
 
 * Visiting PhD student in the research group of [Computer Vision and Geometry Group (CVG)](http://www.cvg.ethz.ch/index.php) of Professor [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/) at ETH Zurich. Advised by [Dr.Songyou Peng](https://pengsongyou.github.io/) and [Prof.Marc Pollefeys](https://people.inf.ethz.ch/pomarc/).
 
