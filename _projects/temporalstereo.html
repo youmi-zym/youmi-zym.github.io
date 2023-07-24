@@ -188,6 +188,8 @@ permalink: /projects/TemporalStereo/
     <div class="hero-body">
       <img src="/_projects/assets/TemporalStereo/temporalstereo_architecture.png" class="center"/>
       <br><br>
+      <img src="/_projects/assets/TemporalStereo/runtime.png" class="center"/>
+      <br><br>
       <h2 class="subtitle has-text-centered">
       <strong>Architecture Overview.</strong> 
       The first supervised stereo network based on video.
@@ -251,9 +253,7 @@ permalink: /projects/TemporalStereo/
       <!-- Experiment -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-five-fifths">
-          <h3 class="title is-4">Architecture Details</h2>
-          <br>
-          <img src="/_projects/assets/TemporalStereo/runtime.png" class="center"/>
+          <h3 class="title is-4">Architecture Details</h3>
           <br>
           <img src="/_projects/assets/TemporalStereo/framework.png" class="center"/>
           <div class="content has-text-justified">
@@ -268,26 +268,54 @@ permalink: /projects/TemporalStereo/
         </div>
       </div>
 
-        <h3 class="title is-4">Adaptive Shifting in action.</h3>
-        <div class="content has-text-justified">
-          <p>
-            We test our SLAM in RGB-D mode on the ScanNet dataset and compare to state-of-the-art methods. 
-            Our approach achieves significantly global-consistent reconstruction results.
-          </p>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-five-fifths">
+          <h3 class="title is-4">Adaptive Shifting in action.</h3>
+          <br>
+          <img src="/_projects/assets/TemporalStereo/adaptive_shift.png" class="center"/>
+          <div class="content has-text-justified">
+            <br>  
+            <p>
+            We show the ground truth disparities and the predictions with and without adaptive shifting for three horizontal regions(i.e., A, B, C) 
+            and one pixel (D) in the image. For A, B, C, our strategy better estimates the actual disparity distributions. 
+            For D, the matching distribution of 5 disparity candidates switches from a flattened unimodal to one-hot distribution centered at 
+            ground truth by adaptively shifting candidates.
+            </p>
+          </div>
+          <br>
         </div>
+      </div>
 
       <div class="columns is-centered has-text-centered">
         <div class="column is-five-fifths">
-          <h2 class="title is-3">Benefits of Temporal Mode</h2>
+          <h3 class="title is-4">Benefits of Temporal Mode</h3>
           <br>
           <img src="/_projects/assets/TemporalStereo/temporal_mode.png" class="center"/>
-        </div>
-        <div class="content has-text-justified">
-          <p>
-          Compared to single-pair mode (1), temporal mode (2) is more accurate at occlusions, even with noisy poses (3) -- colder colors encode lower error.
-          </p>
+          <div class="content has-text-justified">
+            <br>  
+            <p>
+            Compared to single-pair mode (1), temporal mode (2) is more accurate at occlusions, even with noisy poses (3) -- colder colors encode lower error.
+            </p>
+          </div>
+          <br>
         </div>
       </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-five-fifths">
+          <h3 class="title is-4">Visualization on SceneFlow Dataset</h3>
+          <br>
+          <img src="/_projects/assets/TemporalStereo/sceneflow.png" class="center"/>
+          <div class="content has-text-justified">
+            <br>  
+            <p>
+            <b>Qualitative results on SceneFlow.</b> From left to right, the reference/left image, the ground truth disparity map, the prediction in single-pair mode and its error (darker the color, lower the error).
+            </p>
+          </div>
+          <br>
+        </div>
+      </div>
+
 
       <h3 class="title is-4">KITTI Demo</h3>
         <div class="content has-text-justified">
@@ -304,7 +332,7 @@ permalink: /projects/TemporalStereo/
                  preload
                  playsinline
                  loop
-                 width="90%">
+                 width="100%">
           <source src="/_projects/assets/TemporalStereo/kitti.mp4" type="video/mp4">
           </video>
         </div>
