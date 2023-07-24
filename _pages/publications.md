@@ -79,7 +79,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     The IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2023.<br>
     <img src='/assets/images/temporalstereo_architecture.png' alt="network" width="77%"> <br>
     [<a href="https://arxiv.org/abs/2211.13755" style="color:green">Arxiv</a>]
-    [<a href="https://github.com/youmi-zym/projects/TemporalStereo/" style="color:green">Project Page</a>]
+    [<a href="https://youmi-zym.github.io/projects/TemporalStereo/" style="color:green">Project Page</a>]
     [<a href="https://www.youtube.com/watch?v=faSgN2THhEM" style="color:green">Video</a>]
     [<a href="https://github.com/youmi-zym/TemporalStereo" style="color:green">Code</a>]
     [<a style="color:green;cursor: pointer; cursor: hand;" onclick="toggle_visibility('bibtex_temporalstereo');">Bibtex</a>]
