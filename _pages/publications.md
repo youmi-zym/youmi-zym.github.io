@@ -63,11 +63,12 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 </small>
 <div id="bibtex_goslam" style="display:none;">
 <small><div class="highlighter-rouge"><pre class="highlight">
-<code>@proceedings{zhang2022goslam,
-  title={GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction},
-  author={Zhang, Youmin and Tosi, Fabio and Mattoccia, Stefano and Poggi, Matteo},
-  booktitle={ICCV},
-  year={2023}
+<code>@proceedings{zhang2023goslam,
+    title     = {GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction},
+    author    = {Zhang, Youmin and Tosi, Fabio and Mattoccia, Stefano and Poggi, Matteo},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023}
 }
 </code></pre></div></small>
 </div>
