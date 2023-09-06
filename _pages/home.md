@@ -20,6 +20,9 @@ I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from
 
 I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 
+<span style="color:red">I am on track to complete my PhD in February 2024. I'm actively looking for a research position.</span>
+
+
 ### Research Topics
 
 * SLAM (Especially deep-learning based and NeRF based)

@@ -55,7 +55,7 @@ For a complete list of publications, please refer to <a href="https://scholar.go
     <b>Youmin Zhang</b>, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>. <br>
     International Conference on Computer Vision (<b>ICCV</b>), 2023.<br>
     <img src='/assets/images/goslam_architecture.png' alt="network" width="77%"> <br>
-    [<a href="" style="color:green">Arxiv</a>]
+    [<a href="https://arxiv.org/pdf/2309.02436.pdf" style="color:green">Arxiv</a>]
     [<a href="" style="color:green">Video</a>]
     [<a href="https://youmi-zym.github.io/projects/GO-SLAM/" style="color:green">Project Page</a>]
     [<a href="https://github.com/youmi-zym/GO-SLAM" style="color:green">Code</a>]
