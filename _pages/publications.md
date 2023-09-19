@@ -20,15 +20,15 @@ For a complete list of publications, please refer to <a href="https://scholar.go
 ---
 
 
-## Arxiv
+## Journal
 
 ### 2023
 
 
 <small>
-    <b>[A1] Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
+    <b>[J1] Depth Super-Resolution from Explicit and Implicit High-Frequency Features</b> <br>
     Xin Qiao, Chenyang Ge, <b>Youmin Zhang</b>, Yanhui Zhou, <a href="https://fabiotosi92.github.io/" style="color:green"><ins>Fabio Tosi</ins></a>, <a href="https://mattpoggi.github.io/" style="color:green"><ins>Matteo Poggi</ins></a>, <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html" style="color:green"><ins>Stefano Mattoccia</ins></a>. <br>
-    Arxiv, 2023.<br>
+    Computer Vision and Image Understanding (<b>CVIU</b>), 2023.<br>
     <img src='/assets/images/dsr_ei_architecture.png' alt="network" width="77%"> <br>
     [<a href="https://arxiv.org/pdf/2303.09307.pdf" style="color:green">Arxiv</a>]
     [<a href="" style="color:gray">Code</a>]

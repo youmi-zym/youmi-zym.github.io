@@ -37,6 +37,8 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ### 2023
 
+* Sept 2023: 1 Paper Accepted by **CVIU** 2023: [Depth Super-Resolution](https://youmi-zym.github.io/publications/).
+
 * July 2023: 1 Paper Accepted by **ICCV** 2023: [GO-SLAM](https://youmi-zym.github.io/projects/GO-SLAM/).
 
 * June 2023: 1 Paper Accepted by **IROS** 2023: [TemporalStereo](https://youmi-zym.github.io/projects/TemporalStereo/).
