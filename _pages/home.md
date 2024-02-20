@@ -8,7 +8,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/bologna.jpeg
+  overlay_image: /assets/images/RockUniverse.png
   caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
 excerpt: "PhD Student at the University of Bologna<br><br>"
 
