@@ -14,13 +14,18 @@ excerpt: "PhD Student at the University of Bologna<br><br>"
 
 ---
 
+
+## Rock Universe
+
+Welcome to our Rock Universe, follow us on [Twitter](https://twitter.com/hi_rockuniverse) and [GitHub](https://github.com/rockuniverse-tech)!
+
 ## Brief Bio
 
 I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020. I'm co-supervised by [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/).
 
 I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 
-<span style="color:red">I am on track to complete my PhD in February 2024. I'm actively looking for a research position.</span>
+<!--span style="color:red">I am on track to complete my PhD in February 2024. I'm actively looking for a research position.</span-->
 
 
 ### Research Topics
@@ -43,6 +48,7 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 * June 2023: 1 Paper Accepted by **IROS** 2023: [TemporalStereo](https://youmi-zym.github.io/projects/TemporalStereo/).
 
+<!-- -->
 * Visiting PhD student in the research group of [Computer Vision and Geometry Group (CVG)](http://www.cvg.ethz.ch/index.php) of Professor [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/) at ETH Zurich. Advised by [Dr.Songyou Peng](https://pengsongyou.github.io/) and [Prof.Marc Pollefeys](https://people.inf.ethz.ch/pomarc/).
 
 * Feb 2023: 1 Paper Accepted by **CVPR** 2023: [CompletionFormer](https://youmi-zym.github.io/projects/CompletionFormer/).
@@ -62,6 +68,6 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ## Reviewers for
 
-CVPR 2023, ICCV 2023, AAAI 2023, IROS 2023, RAL,  Pattern Recognition
+ECCV 2024, CVPR 2024, AAAI 2024, CVPR 2023, ICCV 2023, AAAI 2023, IROS 2023, RAL, Pattern Recognition
 
 ---
