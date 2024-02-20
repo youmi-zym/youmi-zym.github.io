@@ -9,8 +9,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/RockUniverse.png
-  caption: "Photo: [University of Bologna](https://www.unibo.it/en)"
-excerpt: "PhD Student at the University of Bologna<br><br>"
+  caption: "Photo: [Rock Universe](https://twitter.com/hi_rockuniverse)"
+excerpt: "Founder of Rock Universe / PhD Student at the University of Bologna<br><br>"
 
 ---
 
