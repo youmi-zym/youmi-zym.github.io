@@ -40,6 +40,10 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ## News and Media
 
+### 2024
+
+* Feb 2024: "How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey" is now available on [arXiv](https://arxiv.org/pdf/2402.13255.pdf)!
+
 ### 2023
 
 * Sept 2023: 1 Paper Accepted by **CVIU** 2023: [Depth Super-Resolution](https://youmi-zym.github.io/publications/).
