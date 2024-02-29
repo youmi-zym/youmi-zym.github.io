@@ -10,7 +10,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/RockUniverse.png
   caption: "Photo: [Rock Universe](https://twitter.com/hi_rockuniverse)"
-excerpt: "Founder of Rock Universe / PhD Student<br><br>"
+excerpt: "Co-founder of Rock Universe / PhD Student<br><br>"
 
 ---
 
