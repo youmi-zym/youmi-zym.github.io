@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Youmin Zhang"
-  avatar           : "/assets/images/scholar.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/youmin.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Computer Vision & Depth Sensing Researcher"
   location         : "University of Bologna"
   email            : "youmin.zhang2@unibo.it"
