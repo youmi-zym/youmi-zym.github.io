@@ -10,7 +10,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/RockUniverse.png
   caption: "Photo: [Rock Universe](https://twitter.com/hi_rockuniverse)"
-excerpt: "Co-founder of Rock Universe / PhD Student<br><br>"
+excerpt: "Co-founder of Rock Universe / Graduated PhD Student<br><br>"
 
 ---
 
@@ -21,7 +21,7 @@ Welcome to our Rock Universe, follow us on [Twitter](https://twitter.com/hi_rock
 
 ## Brief Bio
 
-I'm now a Ph.D. student at [University of Bologna](https://www.unibo.it/en) from Nov 2020. I'm co-supervised by [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/).
+I received my Ph.D. degress at [University of Bologna](https://www.unibo.it/en) in 2024, under the co-supervision of [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/).
 
 I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
 
@@ -30,6 +30,7 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ### Research Topics
 
+* 3D Reconstruction (Especially with neural implicit representation)
 * SLAM (Especially deep-learning based and NeRF based)
 * Depth estimation incluing: Stereo Matching, Depth Completion, (Supervised/Unsupervised) Monocular Depth Estimation
 * Optical/Scene Flow
@@ -41,6 +42,10 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 ## News and Media
 
 ### 2024
+
+* April 2024: Neural SLAM Workshop accepted for ECCV 2024! Stay tuned!
+
+* March 2024: "GlORIE-SLAM: Globally Optimized RGB-only Implicit Encoding Point Cloud SLAM" is now available on [arXiv](https://arxiv.org/abs/2403.19549v2), check it out on arXiv!
 
 * Feb 2024: "How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey" is now available on [arXiv](https://arxiv.org/pdf/2402.13255.pdf)!
 
