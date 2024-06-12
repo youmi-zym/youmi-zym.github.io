@@ -43,6 +43,8 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ### 2024
 
+* June 2024: Try our ["ChronoDepth: Learning Temporally Consistent Video Depth from Video Diffusion Priors"](https://jhaoshao.github.io/ChronoDepth/) on [HuggingFace](https://huggingface.co/jhshao/ChronoDepth)!
+
 * April 2024: Neural SLAM Workshop accepted for ECCV 2024! Stay tuned!
 
 * March 2024: "GlORIE-SLAM: Globally Optimized RGB-only Implicit Encoding Point Cloud SLAM" is now available on [arXiv](https://arxiv.org/abs/2403.19549v2), check it out on arXiv!
