@@ -130,12 +130,10 @@ permalink: /projects/RockUniverse/
                     </div>
                     
                     <model-viewer alt="3D Products" src="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.glb" poster="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y">
-                        <div Class="slider">
+                        <div class="slider">
                             <div class="slides">
                                 <button class="slide selected" onclick="switchSrc(this, 'NeilArmstrong')"
                                                                style="background-image: url('/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp');">
-                                <button class="slide" onclick="switchSrc(this, 'Horse')"
-                                                      style="background-image: url(/_projects/assets/RockUniverse/modelviewer/Horse.webp);">
                             </div>
                         </div>
                     </model-viewer>
@@ -144,15 +142,16 @@ permalink: /projects/RockUniverse/
                         const modelViewer = document.querySelector("model-viewer");
 
                         window.switchSrc = (element, name) => {
-                        const base = "_projects/assets/RockUniverse/modelviewer/" + name;
-                        modelViewer.src = base + '.glb';
-                        modelViewer.poster = base + '.webp';
-                        const slides = document.querySelectorAll(".slide");
-                        slides.forEach((element) => {element.classList.remove("selected");});
+                          const base = "/_projects/assets/RockUniverse/modelviewer/" + name;
+                          modelViewer.src = base + '.glb';
+                          modelViewer.poster = base + '.webp';
+                          const slides = document.querySelectorAll(".slide");
+                          slides.forEach((element) => {element.classList.remove("selected");});
+                          element.classList.add("selected");
                         };
 
                         document.querySelector(".slider").addEventListener('beforexrselect', (ev) => {
-                        ev.preventDefault();
+                          ev.preventDefault();
                         });
                     </script>
                 </div>
@@ -164,9 +163,9 @@ permalink: /projects/RockUniverse/
 
 
 <!-- Use it like any other HTML element -->
-<!--
 <model-viewer alt="3D Products" src="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.glb" poster="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-<model-viewer alt="Horse" src="/_projects/assets/RockUniverse/modelviewer/Horse.glb"  shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<model-viewer alt="Scan" src="/_projects/assets/RockUniverse/modelviewer/scan1v2.glb"  shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<!--
 -->
 
 
