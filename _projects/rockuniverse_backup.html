@@ -130,24 +130,39 @@ permalink: /projects/RockUniverse/
   
         <div class="wrapper">
   
-            <div id="product-featured-box">
-
-            <!-- Use it like any other HTML element -->
-            <model-viewer alt="3D Products" src="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.glb" poster="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-            <model-viewer alt="Scan24" src="/_projects/assets/RockUniverse/DTU/scan24.glb" poster="/_projects/assets/RockUniverse/DTU/scan24.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-            <model-viewer alt="Scan37" src="/_projects/assets/RockUniverse/DTU/scan37.glb" poster="/_projects/assets/RockUniverse/DTU/scan37.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-
+          <model-viewer alt="3D Products" src="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.glb" poster="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp" tone-mapping="neutral" shadow-intensity="1" camera-controls touch-action="pan-y">
+            <div class="slider">
+                <div class="slides">
+                    <button class="slide selected" onclick="switchSrc(this, 'NeilArmstrong')"
+                                                   style="background-image: url('/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp');">
+                    <button class="slide selected" onclick="switchSrc(this, 'scan1')"
+                                                   style="background-image: url('/_projects/assets/RockUniverse/modelviewer/scan1.webp');">
+                </div>
             </div>
+          </model-viewer>
+
+          <script type="module">
+            const modelViewer = document.querySelector("model-viewer");
+
+            window.switchSrc = (element, name) => {
+              const base = "/_projects/assets/RockUniverse/modelviewer/" + name;
+              modelViewer.src = base + '.glb';
+              modelViewer.poster = base + '.webp';
+              const slides = document.querySelectorAll(".slide");
+              slides.forEach((element) => {element.classList.remove("selected");});
+              element.classList.add("selected");
+            };
+
+            document.querySelector(".slider").addEventListener('beforexrselect', (ev) => {
+              // Keep slider interactions from affecting the XR scene.
+              ev.preventDefault();
+            });
+          </script>
 
           <style>
             /* This keeps child nodes hidden while the element loads */
             :not(:defined) > * {
               display: none;
-            }
-
-            #product-featured-box {
-              display: grid;
-              grid-template-columns: repeat(4,1fr);
             }
 
             model-viewer {
@@ -257,6 +272,12 @@ permalink: /projects/RockUniverse/
 </section>
 
 
+<!-- Use it like any other HTML element -->
+<model-viewer alt="3D Products" src="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.glb" poster="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<model-viewer alt="Scan" src="/_projects/assets/RockUniverse/DTU/scan24.glb" poster="/_projects/assets/RockUniverse/DTU/scan24.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<model-viewer alt="Scan" src="/_projects/assets/RockUniverse/DTU/scan37.glb" poster="/_projects/assets/RockUniverse/DTU/scan37.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<!--
+-->
 
 
 <footer class="footer">
