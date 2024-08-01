@@ -119,9 +119,9 @@ permalink: /projects/RockUniverse/
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <hr>
-        <h2 class="title is-3">Object</h2>
-        <br>
-        <h3 class="title is-4">Online Shopping with 3D Interaction</h3>
+        <!--h2 class="title is-3">Object</h2>
+        <br-->
+        <h2 class="title is-3">Online Shopping with 3D Interaction</h2>
         <br>
         <p>
           More examples will be available soon.
@@ -133,8 +133,10 @@ permalink: /projects/RockUniverse/
             <div id="product-featured-box">
 
             <!-- Use it like any other HTML element -->
+            <base href="/_projects/assets/RockUniverse/">
             <model-viewer alt="3D Products" src="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.glb" poster="/_projects/assets/RockUniverse/modelviewer/NeilArmstrong.webp" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-            <model-viewer alt="Counter" src="/_projects/assets/RockUniverse/MipNerf360/counter_slim.glb" poster="/_projects/assets/RockUniverse/MipNerf360/counter.webp" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+            <model-viewer src="MipNerf360/counter_slim.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="MipNerf360/counter.webp" shadow-intensity="1" auto-rotate> </model-viewer>
+            <!--model-viewer alt="Counter" src="/_projects/assets/RockUniverse/MipNerf360/counter_slim.glb" poster="/_projects/assets/RockUniverse/MipNerf360/counter.webp" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer-->
             <model-viewer alt="Scan24" src="/_projects/assets/RockUniverse/DTU/scan24.glb" poster="/_projects/assets/RockUniverse/DTU/scan24.webp" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
             <model-viewer alt="Scan37" src="/_projects/assets/RockUniverse/DTU/scan37.glb" poster="/_projects/assets/RockUniverse/DTU/scan37.webp" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
             <model-viewer alt="Scan40" src="/_projects/assets/RockUniverse/DTU/scan40.glb" poster="/_projects/assets/RockUniverse/DTU/scan40.webp" auto-rotate shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
@@ -182,18 +184,18 @@ permalink: /projects/RockUniverse/
             }
 
             @keyframes circle {
-              from { transform: translateX(-0%) rotate(0deg) translateX(0px) rotate(0deg); }
-              to   { transform: translateX(-0%) rotate(360deg) translateX(0px) rotate(-360deg); }
+              from { transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg); }
+              to   { transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg); }
             }
 
             @keyframes elongate {
-              from { transform: translateX(2000px); }
-              to   { transform: translateX(-200px); }
+              from { transform: translateX(100px); }
+              to   { transform: translateX(-100px); }
             }
 
             model-viewer > #ar-prompt {
               position: absolute;
-              left: 0%;
+              left: 50%;
               bottom: 175px;
               animation: elongate 2s infinite ease-in-out alternate;
               display: none;
