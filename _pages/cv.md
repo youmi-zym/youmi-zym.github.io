@@ -14,10 +14,5 @@ header:
 
 ---
 
-[English Version CV](https://youmi-zym.github.io/media/cv/YouminZhang_English_CV.pdf)
-
-## Educaton
-* Ph.D.     in Computer Science and Technology,     University of Bologna,          2020 - Now
-* M.S.      in Computer Science and Technology,     Beihang University,             2017 - 2020
-* B.S.      in Communication and Engineering,       Dalian Maritime University,     2013 - 2017
+[English Version CV]()
 

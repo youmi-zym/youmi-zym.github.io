@@ -23,7 +23,7 @@ Welcome to our Rock Universe, follow us on [Twitter](https://twitter.com/hi_rock
 
 I received my Ph.D. degress at [University of Bologna](https://www.unibo.it/en) in 2024, under the co-supervision of [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/).
 
-I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), Xin Qiao, [Chaoqiang Zhao](https://zxcqlf.github.io/) and Huan Li.
+I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Aleotti](https://filippoaleotti.github.io/website/), [Erik Sandström](https://scholar.google.com/citations?user=phiETm4AAAAJ&hl=en).
 
 <!--span style="color:red">I am on track to complete my PhD in February 2024. I'm actively looking for a research position.</span-->
 
@@ -40,6 +40,10 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 {% include feature_row %}
 
 ## News and Media
+
+### 2025
+
+* Jan 2025: 2 Paper2 Accepted by **ICRA** 2025: LightStereo, HS-SLAM!
 
 ### 2024
 
