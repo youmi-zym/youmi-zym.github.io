@@ -19,6 +19,9 @@ excerpt: "Co-founder of Rock Universe / Graduated PhD Student<br><br>"
 
 Welcome to our Rock Universe, follow us on [Twitter](https://twitter.com/hi_rockuniverse) and [GitHub](https://github.com/rockuniverse-tech)!
 
+We're hiring scientists and interns! We're looking for talented professionals in **SLAM, 3D Reconstruction, and Depth Sensing**. If you're passionate about cutting-edge 3D technology and eager to make an impact, we'd love to hear from you. **Get in touch!**
+
+
 ## Brief Bio
 
 I received my Ph.D. degress at [University of Bologna](https://www.unibo.it/en) in 2024, under the co-supervision of [Prof.Stefano Mattoccia](http://vision.deis.unibo.it/~smatt/Site/Home.html) and [Prof.Matteo Poggi](https://mattpoggi.github.io/).
