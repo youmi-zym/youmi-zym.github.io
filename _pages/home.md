@@ -17,9 +17,9 @@ excerpt: "Co-founder of Rock Universe / Graduated PhD Student<br><br>"
 
 ## Rock Universe
 
-Welcome to our Rock Universe, follow us on [Twitter](https://twitter.com/hi_rockuniverse) and [GitHub](https://github.com/rockuniverse-tech)!
+Welcome to our Rock Universe AI, follow us on [Twitter](https://twitter.com/hi_rockuniverse) and [GitHub](https://github.com/rockuniverse-tech)!
 
-We're hiring scientists and interns! We're looking for talented professionals in **SLAM, 3D Reconstruction, and Depth Sensing**. If you're passionate about cutting-edge 3D technology and eager to make an impact, we'd love to hear from you. **Get in touch!**
+We're hiring scientists and interns! 🚀 Looking for talented professionals in **SLAM, 3D Reconstruction, and Depth Sensing**. We support both **remote and onsite** positions. If you're passionate about cutting-edge 3D technology, we'd love to hear from you. **Get in touch!**
 
 
 ## Brief Bio
