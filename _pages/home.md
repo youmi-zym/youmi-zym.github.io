@@ -46,6 +46,8 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ### 2025
 
+* Feb 2025: 1 Paper Accepted by **CVPR** 2025: ChronoDepth!
+
 * Jan 2025: 2 Papers Accepted by **ICRA** 2025: LightStereo, HS-SLAM!
 
 ### 2024
