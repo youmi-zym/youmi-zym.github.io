@@ -10,14 +10,14 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/RockUniverse.png
   caption: "Photo: [Rock Universe](https://twitter.com/hi_rockuniverse)"
-excerpt: "Co-founder of Rock Universe / Graduated PhD Student<br><br>"
+excerpt: "Co-founder of Rawmantic AI / Graduated PhD Student<br><br>"
 
 ---
 
 
-## Rock Universe
+## Rawmantic AI
 
-Welcome to our Rock Universe AI, follow us on [Twitter](https://twitter.com/hi_rockuniverse) and [GitHub](https://github.com/rockuniverse-tech)!
+Welcome to our Rawmantic AI, follow us on [Twitter](https://twitter.com/hi_Rawmantic)!
 
 We're hiring scientists and interns! 🚀 Looking for talented professionals in **SLAM, 3D Reconstruction, and Depth Sensing**. We support both **remote and onsite** positions. If you're passionate about cutting-edge 3D technology, we'd love to hear from you. **Get in touch!**
 
