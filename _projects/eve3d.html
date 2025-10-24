@@ -120,7 +120,7 @@ permalink: /projects/Eve3D/
           <!-- <br> -->
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a>Jiawei Zhang</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href=https://scholar.google.com/citations?user=WeRMtW4AAAAJ&hl=en>Jiawei Zhang</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
               <a href="https://youmi-zym.github.io">Youmin Zhang</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -129,19 +129,20 @@ permalink: /projects/Eve3D/
               <a href="https://fabiotosi92.github.io/">Fabio Tosi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
-              <a>Meiying Gu</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href=https://scholar.google.com/citations?user=9WT89kAAAAAJ&hl=zh-CN>Meiying Gu</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
-              <a>Jiahe Li</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href=https://scholar.google.com/citations?hl=en&user=XG-o7LUAAAAJ>Jiahe Li</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
+            <br>
             <span class="author-block">
-              <a>Xiaohan Yu</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href=https://scholar.google.com/citations?user=3PURN9QAAAAJ&hl=zh-CN&authuser=1&oi=ao>Xiaohan Yu</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
               <a>Jin Zheng</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
-              <a>Xiao Bai</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href=https://scholar.google.com/citations?user=k6l1vZIAAAAJ&hl=en>Xiao Bai</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
               <a href="https://mattpoggi.github.io/">Matteo Poggi</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -152,8 +153,15 @@ permalink: /projects/Eve3D/
             <span class="author-block">Beihang University</span>&nbsp;&nbsp;
           </div>
           <div class="is-size-5 publication-authors">
+            <span class="author-block">Rawmantic AI</span>&nbsp;&nbsp;
+          </div>
+          <div class="is-size-5 publication-authors">
             <span class="author-block">University of Bologna</span>&nbsp;&nbsp;
           </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Macquarie University</span>&nbsp;&nbsp;
+          </div>
+
 
           <div class="column has-text-centered">
             <div class="publication-links">
@@ -189,12 +197,22 @@ permalink: /projects/Eve3D/
               </span-->
               <!-- Code Link. -->
                <span class="link-block">
-                <a href="https://github.com/youmi-zym/" target="_blank"
-		   class="external-link button is-normal is-rounded is-dark">
+                <a href="https://x.com/hi_rawmantic" target="_blank"
+		            class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span >Code</span>
+                  <span >Twitter</span>
+                  </a>
+              </span> 
+              <!-- Code Link. -->
+               <span class="link-block">
+                <a href="https://xhslink.com/m/2kEyHUbGfSn" target="_blank"
+		            class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span >RedNote/Xiaohongshu</span>
                   </a>
               </span> 
             </div>
@@ -208,13 +226,17 @@ permalink: /projects/Eve3D/
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="/_projects/assets/GO-SLAM/firstshot.png" class="center"/>
+      <img src="/_projects/assets/Eve3D/firstshot.png" class="center"/>
       <br><br>
-      <img src="/_projects/assets/GO-SLAM/framework.png" class="center"/>
+      <img src="/_projects/assets/Eve3D/framework.png" class="center"/>
       <br><br>
       <h2 class="subtitle has-text-centered">
       <strong>Architecture Overview.</strong> 
-      GO-SLAM consists of three parallel threads: front-end tracking, back-end tracking, and instant mapping. It can run with monocular, stereo, and RGB-D input.
+        (a) We generate stereo pairs by rendering from a virtual
+        camera using 3DGS. (b) A pre-trained stereo network extracts initial depth priors. (c) Our core
+        contribution: joint optimization of learnable depth priors and 3DGS, enhanced by local bundle
+        adjustment for geometric and photometric consistency. (d) Final results showing high-quality mesh
+        reconstruction, accurate depth/normal maps, and high-fidelity novel view synthesis.
     </h2>
     </div>
   </div>
@@ -246,17 +268,19 @@ permalink: /projects/Eve3D/
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            <b>TL;DR:We present GO-SLAM, a deep-learning-based dense visual SLAM framework globally optimizing poses and 3D reconstruction in real-time. </b>
+            <b>TL;DR: We present Eve3D, a novel framework for dense 3D reconstruction based on 3D Gaussian Splatting (3DGS). </b>
           </p>
           <p>
-            Neural implicit representations have recently demonstrated compelling results on dense Simultaneous Localization And Mapping (SLAM) 
-            but suffer from the accumulation of errors in camera tracking and distortion in the reconstruction. Purposely, we present GO-SLAM, 
-            a deep-learning-based dense visual SLAM framework globally optimizing poses and 3D reconstruction in real-time. Robust pose estimation 
-            is at its core, supported by efficient loop closing and online full bundle adjustment, which optimize per frame by utilizing the learned 
-            global geometry of the complete history of input frames. Simultaneously, we update the implicit and continuous surface representation 
-            on-the-fly to ensure global consistency of 3D reconstruction. Results on various synthetic and real-world datasets demonstrate that GO-SLAM 
-            outperforms state-of-the-art approaches at tracking robustness and reconstruction accuracy. Furthermore, GO-SLAM is versatile and can run with 
-            monocular, stereo, and RGB-D input.
+            While most existing methods rely on imperfect priors
+            derived from pre-trained vision models, Eve3D fully leverages these priors by
+            jointly optimizing both them and the 3DGS backbone. This joint optimization
+            creates a mutually reinforcing cycle: the priors enhance the quality of 3DGS, which
+            in turn refines the priors, further improving the reconstruction. Additionally, Eve3D
+            introduces a novel optimization step based on bundle adjustment, overcoming the
+            limitations of the highly local supervision in standard 3DGS pipelines. Eve3D
+            achieves state-of-the-art results in surface reconstruction and novel view synthesis
+            on the Tanks & Temples, DTU, and Mip-NeRF360 datasets. while retaining fast
+            convergence, highlighting an unprecedented trade-off between accuracy and speed.
           </p>
         </div>
       </div>
