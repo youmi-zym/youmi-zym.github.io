@@ -21,13 +21,13 @@ header:
 </body>
 
 <ol>
-    <li>
+    <!--li>
         <a href="https://youmi-zym.github.io/projects/Eve3D">
         <papertitle>
             2025-NeurIPS-Eve3D: Eve3D: Elevating Vision Models for Enhanced 3D Surface Reconstruction via Gaussian Splatting
         </papertitle>
         </a>
-    </li>
+    </li-->
     <li>
         <a href="https://youmi-zym.github.io/projects/CompletionFormer">
         <papertitle>
