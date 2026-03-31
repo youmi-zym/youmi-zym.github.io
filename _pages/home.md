@@ -44,6 +44,13 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 
 ## News and Media
 
+
+### 2026
+
+* March 2026: 1 Paper Accepted by **SIGGRAPH** 2026: GeoQuery: Geometry-Query Diffusion for Sparse-View Reconstruction!
+
+* Feb 2026: 1 Paper Accepted by **T-RO** 2026: How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey, is now available on [arXiv](https://arxiv.org/abs/2402.13255v3)!
+
 ### 2025
 
 * Sep 2025: 2 Papers Accepted by **NeurIPS** 2025: both are focusing on accurate 3D surface reconstruction!
@@ -61,8 +68,6 @@ I'm also working with [Fabio Tosi](https://fabiotosi92.github.io/), [Filippo Ale
 * April 2024: Neural SLAM Workshop accepted for ECCV 2024! Stay tuned!
 
 * March 2024: "GlORIE-SLAM: Globally Optimized RGB-only Implicit Encoding Point Cloud SLAM" is now available on [arXiv](https://arxiv.org/abs/2403.19549v2), check it out on arXiv!
-
-* Feb 2024: "How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey" is now available on [arXiv](https://arxiv.org/pdf/2402.13255.pdf)!
 
 ### 2023
 
